@@ -69,7 +69,8 @@ function mailCount(M) { return (M.handle('mail_load', {}) || []).length; }
 (async function () {
   /* ---------- session 1: first launch ---------- */
   let M = boot();
-  ok(!!M && M.version && M.version >= '0.20.0', 'boot 1: mock ' + M.version + ' online, ' + Object.keys(window.MOCK_SEMANTIC).length + ' semantic protocols, ' + Object.keys(M.handlers).length + ' handlers');
+  const vnum = s => String(s || '0').split('.').map(Number).reduce((a, b) => a * 1000 + (b || 0), 0);
+  ok(!!M && M.version && vnum(M.version) >= vnum('0.20.0'), 'boot 1: mock ' + M.version + ' online, ' + Object.keys(window.MOCK_SEMANTIC).length + ' semantic protocols, ' + Object.keys(M.handlers).length + ' handlers');
   const clover0 = window.MOCK_STATE.clover;
   const mails0 = mailCount(M);
   ok(mails0 > 0, 'boot 1: tutorial reward mail is present (' + mails0 + ' mails)');
