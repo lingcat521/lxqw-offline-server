@@ -168,6 +168,9 @@
           var t = furType(id);
           if (!t || types[t]) continue;                   /* 这一类已经有东西了 -> 尊重玩家/既有摆放 */
           r.put_fur.push({ id: id, type: t }); types[t] = 1; added++;
+          /* 自动摆放的也必须进 replace_fur: 客户端 getReplaced() 只看 "put_fur 的 type 在不在 replace_fur 里",
+             少了这一步, 自动摆进来的家具在客户端眼里"没摆上"(房间里不显示 / 替换那栏是空的) */
+          if (r.replace_fur.map(num).indexOf(t) < 0) r.replace_fur.push(t);
         }
       }
       /* 客户端 getReplaced() = put_fur 里 type 在 replace_fur 里的那些 */

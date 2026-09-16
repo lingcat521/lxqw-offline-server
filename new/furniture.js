@@ -644,4 +644,74 @@
       return r;
     };
   })();
+  /* ================= 出口总闸: 幽灵 id 一律不许出网 =================
+     客户端两处按 id 查家具表:
+       ① getReplaced():  o = FurnitureDB.get(put_fur[i].id);  replace_fur.indexOf(o.type)  -> o 为 undefined 直接抛异常
+       ② getOwnedFurnitures(): 逐条 has_fur, 查不到的行静默消失(小仓库看起来"家具都没了")
+     前面几层各自清洗过, 但只要有一层(list 缺失/时点不同)漏掉就会漏出去, 所以这里加**最后一道**清洗。
+     安全性: 只有"家具表确实在应答"或"该 id 其实是道具(ItemDB 能查到)"时才丢;
+     表还没就绪(启动早期)时保留, 绝不因为一次误判把整屋家具清空。 */
+  (function () {
+    var prevLast = S['furniture_load_furniture'];
+    if (typeof prevLast !== 'function') return;
+    function itemResolves(id) {
+      try { var db = Tabikaeru.DataManager.instance().ItemDB; return !!(db && typeof db.get === 'function' && db.get(id)); } catch (e) { return false; }
+    }
+    /* 家具表在不在应答: list 有货, 或"哨兵 id 回 null"且内部容器非空 */
+    function furAnswers() {
+      try {
+        var dm = Tabikaeru.DataManager.instance(), db = dm && (dm.FurnitureDB || dm.furnitureDB);
+        if (!db || typeof db.get !== 'function') return false;
+        if (typeof db.list === 'function') { var ls = db.list(); if (ls && ls.length) return true; }
+        var neg = db.get(-987654321);
+        if (neg !== null && neg !== undefined) return false;      /* 宽松桩(任何 id 都给行) -> 不信它 */
+        var cands = ['data', '__data', '_data', 'dict', '_dict', 'table', '_table', 'map', '_map'];
+        for (var i = 0; i < cands.length; i++) {
+          var c = db[cands[i]];
+          if (typeof c === 'function') { try { c = c.call(db); } catch (e) { c = null; } }
+          if (c && typeof c === 'object') { for (var k in c) return true; }
+        }
+        return false;
+      } catch (e) { return false; }
+    }
+    S['furniture_load_furniture'] = function () {
+      var r = (typeof prevLast === 'function') ? (prevLast() || {}) : (prevLast || {});
+      try {
+        var ready = furAnswers(), dropped = [], seen = {};
+        function keep(id) {
+          var n = Number(id);
+          if (!n) return false;
+          if (furType(n) !== null) return true;      /* 真家具 */
+          if (ready || itemResolves(n)) { dropped.push(n); return false; }
+          return true;                               /* 表没就绪 -> 先留着 */
+        }
+        if (Array.isArray(r.has_fur)) {
+          var hf = [];
+          for (var i = 0; i < r.has_fur.length; i++) {
+            var id = Number(r.has_fur[i]);
+            if (!id || !keep(id) || seen[id]) continue;
+            seen[id] = 1; hf.push(id);
+          }
+          r.has_fur = hf;
+        }
+        if (Array.isArray(r.put_fur)) {
+          var pf = [], types = [];
+          for (var j = 0; j < r.put_fur.length; j++) {
+            var row = r.put_fur[j]; if (!row) continue;
+            var pid = Number(row.id !== undefined ? row.id : row);
+            if (!pid || !keep(pid)) continue;
+            var ty = furType(pid);
+            if (ty === null || ty === undefined) continue;      /* 摆放项必须有 type, 否则客户端 getReplaced 会崩 */
+            var cp = {}; for (var kk in row) cp[kk] = row[kk];
+            cp.id = pid; cp.type = ty; pf.push(cp);
+            if (types.indexOf(ty) < 0) types.push(ty);
+          }
+          r.put_fur = pf;
+          r.replace_fur = types;                                 /* 与 put_fur 严格对应, 且是 type 不是 id */
+        }
+        if (dropped.length) { try { console.log('[MOCK] 家具出口: 剔除非家具/幽灵 id ' + dropped.join(',')); } catch (e) {} }
+      } catch (e) {}
+      return r;
+    };
+  })();
 })();

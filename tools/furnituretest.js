@@ -37,7 +37,9 @@ function boot() {
   global.RechargeModel = function () {}; global.RechargeModel.prototype = {};
   /* the client's own furniture table, used to resolve a furniture's slot type */
   const FURN = { 5001: { id: 5001, type: 1, name: '地毯' }, 5002: { id: 5002, type: 2, name: '椅子' }, 5003: { id: 5003, type: 2, name: '另一把椅子' }, 10102: { id: 10102, type: 9, name: '摆件' } };
-  global.Tabikaeru = { DataManager: { instance: () => ({ FurnitureDB: { get: id => FURN[id] || null }, ItemDB: { get: () => null } }) }, DataType: { ItemType: {} } };
+  /* ⚠️ instance() 必须返回**同一个**对象: 测试后面要把真实家具表注入进去, 每次新建对象会让注入丢失 */
+  const DM_INST = { FurnitureDB: { get: id => FURN[id] || null }, ItemDB: { get: () => null } };
+  global.Tabikaeru = { DataManager: { instance: () => DM_INST }, DataType: { ItemType: {} } };
   ['furniture_load_furniture', 'furniture_load_compost'].forEach(n => listeners[n] = [function () {}]);
   delete global.MOCK_STATE; delete global.MOCK_SEMANTIC; global.MockServer = undefined;
   const l = console.log, w = console.warn;
@@ -122,9 +124,21 @@ setTimeout(function () {
   const ghost = (pay.has_fur || []).filter(id => !furIds[Number(id)]);
   ok(ghost.length === 0, 'has_fur 里没有家具表查不到的幽灵 id [' + ghost.slice(0, 6).join(',') + ' 共 ' + ghost.length + ']');
   ok((pay.has_fur || []).length === new Set((pay.has_fur || []).map(Number)).size, 'has_fur 没有重复条目');
-  ok(Array.isArray(pay.replace_fur) && pay.replace_fur.length >= 1 && pay.replace_fur.every(t2 => Number(t2) >= 1 && Number(t2) <= 27),
+  ok(Array.isArray(pay.replace_fur) && pay.replace_fur.every(t2 => Number(t2) >= 1 && Number(t2) <= 27),
      'replace_fur 是合法的家具 type 集合(客户端"已摆放/替换"那栏读它) [' + JSON.stringify(pay.replace_fur) + ']');
+  ok(pay.replace_fur.length === new Set((pay.put_fur || []).map(r => Number(r.type))).size,
+     'replace_fur 与 put_fur 的 type 严格一一对应(幽灵行清掉后允许为空) [' + JSON.stringify(pay.replace_fur) + ']');
   ok((pay.put_fur || []).every(r => Number(r.type) > 0), 'put_fur 每条都有 type(客户端 getReplaced 靠它)');
+  /* 反向用例: 用真实家具表里的 id 摆一件, 它必须留在 put_fur 并出现在 replace_fur 里 */
+  const realId = Number(furList[0].id), realType = Number(furList[0].type);
+  MOCK_STATE.furniture.has_fur = [realId];
+  ok(M.handle('furniture_replace_fur', { id: realId }).code === 0, '真实家具可以摆进小屋 [' + realId + ']');
+  const pay2 = M.handle('furniture_load_furniture', {});
+  ok((pay2.put_fur || []).some(r => Number(r.id) === realId && Number(r.type) === realType),
+     '真实家具保留在 put_fur 且带正确 type -> ' + JSON.stringify(pay2.put_fur));
+  ok((pay2.replace_fur || []).indexOf(realType) >= 0, '它的 type 出现在 replace_fur 里 [' + JSON.stringify(pay2.replace_fur) + ']');
+  ok((pay2.has_fur || []).length === 1 && Number(pay2.has_fur[0]) === realId,
+     'has_fur 只留下真实家具 [' + JSON.stringify(pay2.has_fur) + ']');
 
 console.log('\n' + (fail ? 'FAILED ' + fail + ' check(s)' : 'ALL CHECKS PASSED'));
   process.exit(fail ? 1 : 0);

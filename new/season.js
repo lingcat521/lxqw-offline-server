@@ -155,10 +155,18 @@
   })();
   /* 烹饪任务跟着 21 天节气窗走: 换窗(每月 1 日)就重排一批 —— 由 cooking 层按它自己的表重建 */
   function syncCookingWindow() {
-    var s = solarTask();
-    if (num(st.cookingWindowStart) === num(s.start)) return 0;
+    var s = solarTask(), prevStart = num(st.cookingWindowStart);
+    if (prevStart === num(s.start)) return 0;
     st.cookingWindowStart = num(s.start);
-    try { if (st.cooking) { st.cooking.tasks = []; st.cooking.monthPro = 0; st.cooking.select = 1; } } catch (e) {}
+    /* 第一次记录窗口: 不重排、不清进度
+       (以前这里一进料理页就把 monthPro 清零 + 清 complete, 玩家进度直接消失, 还能重复领同一档) */
+    if (!prevStart) {
+      save();
+      log('节气窗: 记录本窗起点 ' + new Date(num(s.start) * 1000).toLocaleDateString() + ' (保留现有料理进度)');
+      return 0;
+    }
+    /* 真跨窗: 重排任务 + 本月进度清零(新一轮节气任务=新一轮月度进度), 已领记录一起清 */
+    try { if (st.cooking) { st.cooking.tasks = []; st.cooking.base = {}; st.cooking.claimed = {}; st.cooking.monthPro = 0; st.cooking.select = 1; } } catch (e) {}
     save();
     try { if (S['cooking_load']) S['cooking_load']({}); } catch (e) {}
     try { push('cooking_task_update', { task: { id: 0, pro: 0, complete: 0 } }, 80); } catch (e) {}

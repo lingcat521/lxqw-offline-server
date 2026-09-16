@@ -47,9 +47,17 @@ const st = () => window.MOCK_STATE;
   ok(M.handle('item_use_gift_code', {}).code === 1, 'empty code is rejected (code 1)');
   const c0 = Number(st().clover), t0 = Number(st().ticket);
   /* 客户端 CdkeyView: if(200==e.code) 才显示"礼包码兑换成功" —— 成功必须回 200 */
-  ok(M.handle('item_use_gift_code', { code: 'LXQW-2026' }).code === 200, 'a fresh code redeems (code 200)');
-  ok(Number(st().clover) === c0 + 100 && Number(st().ticket) === t0 + 1, 'reward is 三叶草+100 抽奖券+1');
-  ok(M.handle('item_use_gift_code', { code: 'LXQW-2026' }).code === 2, 'the same code cannot be reused (code 2)');
+  /* 现在的兑换码是**固定码表**(new/cdkey.js, 每码每人一次), 不再"任何串都能兑";
+     用官方 API 造一个已知奖励的码, 验证奖励发放 + 幂等 + 未知码拒绝 */
+  ok(!!(window.MOCK_CDKEY && MOCK_CDKEY.add), 'MOCK_CDKEY.add 可用(私服加码入口)');
+  MOCK_CDKEY.add('TEST-CODE-1', { clover: 100, items: [{ id: 1000, count: 1 }] });
+  const r1 = M.handle('item_use_gift_code', { code: 'TEST-CODE-1' });
+  ok(r1.code === 200, 'a fresh code redeems (code 200) [' + JSON.stringify(r1).slice(0, 60) + ']');
+  ok(Number(st().clover) === c0 + 100, '奖励三叶草 +100 (' + c0 + ' -> ' + st().clover + ')');
+  const houseHas = () => (st().house || []).filter(h => Number(h.item_id) === 1000).reduce((a, h) => a + Number(h.count || 0), 0);
+  ok(houseHas() >= 1, '奖励道具进了物品栏 (id 1000 x' + houseHas() + ')');
+  ok(M.handle('item_use_gift_code', { code: 'TEST-CODE-1' }).code === 2, 'the same code cannot be reused (code 2)');
+  ok(M.handle('item_use_gift_code', { code: 'NO-SUCH-CODE-999' }).code === 1, '码表里没有的码被拒绝 (code 1)');
 
 console.log(H.fails() ? '\nservicetest: ' + H.fails() + ' FAILED' : '\nservicetest: all checks passed');
   process.exit(H.fails() ? 1 : 0);

@@ -92,7 +92,10 @@ const SM = core.SocketManage.prototype;
   ok(role2.frog.status === 0, 'after the trip: frog.status = 0 (home), was ' + role2.frog.status);
   ok(M.handle('item_load_items', {}).bag_completed === 0, 'after the trip: the bag unlocks again');
   ok(window.MOCK_STATE.notes.length > notes0, 'a new travel note arrived (' + notes0 + ' -> ' + window.MOCK_STATE.notes.length + ')');
-  ok(window.MOCK_STATE.photos.length === pics0 + 1, 'a new postcard arrived (' + pics0 + ' -> ' + window.MOCK_STATE.photos.length + ')');
+  const newPics = window.MOCK_STATE.photos.slice(pics0);
+  ok(newPics.length >= 1, 'a new postcard arrived (' + pics0 + ' -> ' + window.MOCK_STATE.photos.length + ')');
+  ok(newPics.every(p => p && p.id !== undefined && p.pic_id !== undefined), '每张新明信片都是完整行 ' + JSON.stringify(newPics.map(p => p.pic_id)));
+  ok(new Set(newPics.map(p => p.pic_id)).size === newPics.length, '一趟里不会重复塞同一张明信片 ' + JSON.stringify(newPics.map(p => p.pic_id)));
   ok(window.MOCK_STATE.clover > clover0, 'the trip brought clover back (' + clover0 + ' -> ' + window.MOCK_STATE.clover + ')');
   for (const n of ['travel_load_note', 'client_load_role', 'album_load_new', 'clover_update']) {
     ok(global.__events.indexOf(n) >= 0, 'the return pushed ' + n);

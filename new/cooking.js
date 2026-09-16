@@ -46,11 +46,13 @@
     var month = new Date().getMonth() + 1;
     if (!c || typeof c !== "object" || c.month !== month) {
       c = st.cooking = { month: month, monthPro: 0, week: weekKey(), complete: false, select: 1,
-                         refreshTime: nextMonday(), tasks: [], base: {}, ad: 0, share: 0 };
+                         refreshTime: nextMonday(), tasks: [], base: {}, claimed: {}, ad: 0, share: 0 };
       for (var i = 1; i <= MONTH_TASKS; i++) c.tasks.push({ id: i, pro: 0, complete: 0 });
       log("料理: 新的一月 " + month + " 月, 任务 " + MONTH_TASKS + " 个");
     }
     if (!c.base || typeof c.base !== "object") c.base = {};
+    if (!c.claimed || typeof c.claimed !== "object") c.claimed = {};   /* 本窗已领过的任务 id */
+
     if (!Array.isArray(c.tasks) || !c.tasks.length) {
       c.tasks = [];
       for (var j = 1; j <= MONTH_TASKS; j++) c.tasks.push({ id: j, pro: 0, complete: 0 });
@@ -104,8 +106,10 @@
       var t = c.tasks[i];
       if (t.id !== id) continue;
       var cfg = TASK[id];
+      /* 去重: 换节气窗会重排任务(complete 被清), 没有这一层就能反复领同一档 */
+      if (c.claimed[id]) { log("料理: 任务 " + id + " 本窗已领过, 拒绝重复"); return { code: 1 }; }
       if (cfg && t.pro >= cfg.state && !t.complete) {
-        t.complete = 1; c.monthPro++;
+        t.complete = 1; c.claimed[id] = 1; c.monthPro++;
         save(); log("料理: 任务 " + id + " 完成 (" + c.monthPro + ")");
         setTimeout(function () { try { M.dispatch("cooking_task_update", { task: { id: id, pro: cfg.state, complete: 1 } }); } catch (e) {} }, 30);
         return { code: 0 };

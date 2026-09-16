@@ -72,7 +72,7 @@
     try { console.log('[MOCK] 存档: 包内暂无存档 -> 全新开始'); } catch (e) {}
   })();
   /* 关键协议: 处理完立刻落盘(不走 1.2s 防抖), 避免"刚做完就杀进程"丢进度 */
-  var CRITICAL = /^(client_set_client|item_buy|item_use_gift_code|item_putin_bag|item_takeout_bag|item_putin_desk|item_takeout_desk|item_select_gift|item_set_bag_completed|furniture_putin_bench|furniture_takeout_bench|furniture_buy_shop|clover_harvest|clover_harvest_resend|travel_depart|travel_call_back|travel_read_note|story_read_new_story|story_send_gift|mail_open|mail_load_mails|guest_confirm|guest_serve|guest_finish|pray_compose|drawing_|calendar_get_st_reward|task_client_pro|rank_like)$/;
+  var CRITICAL = /^(client_set_client|item_buy|item_use_gift_code|item_putin_bag|item_takeout_bag|item_putin_desk|item_takeout_desk|item_select_gift|item_set_bag_completed|item_redeem_prize|item_load_handbook|furniture_putin_bench|furniture_takeout_bench|furniture_buy_shop|clover_harvest|clover_harvest_resend|travel_depart|travel_call_back|travel_read_note|story_read_new_story|story_send_gift|mail_open|mail_load_mails|guest_confirm|guest_serve|guest_finish|pray_compose|drawing_|calendar_get_st_reward|task_client_pro|rank_like)$/;
   (function () {
     try {
       var M = window.MockServer; if (!M || !M.handle) return;

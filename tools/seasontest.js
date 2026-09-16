@@ -71,12 +71,21 @@ const S2 = window.MOCK_SEASON;
   ok(shot === 30, '带节气食物出门 -> 拿到"四动物同框"节气照(30/30)');
 
   /* ---- 烹饪任务跟着 21 天节气窗重排 ---- */
+  /* 情况 A: 第一次记录窗口(旧档/新档没有 cookingWindowStart) -> **不许动玩家进度**
+     (以前的实现一进料理页就把 monthPro 清零 + 清 complete, 玩家进度直接消失, 还能重复领同一档) */
   st.cookingWindowStart = null; st.cooking = { tasks: [{ id: 1, pro: 1, complete: 0 }], monthPro: 5, select: 1 };
   S2.solarTask();                                    /* 内部会做一次换窗同步 */
   ok(Number(st.cookingWindowStart) === S2.solarTask().start, '换窗时记住了当前窗 [' + st.cookingWindowStart + ']');
   ok(S2.syncCookingWindow() === 0, '同一个窗内不会重复重排');
-  ok(Number(st.cookingWindowStart) === S2.solarTask().start, '记住当前窗(下次比它决定要不要重排)');
-  ok(st.cooking.monthPro === 0, '重排后本月进度清零 [' + st.cooking.monthPro + ']');
+  ok(st.cooking.monthPro === 5, '首次记录窗口不动玩家进度(本月进度仍是 5) [' + st.cooking.monthPro + ']');
+  ok((st.cooking.tasks || []).length === 1, '首次记录窗口也不重排任务 [' + (st.cooking.tasks || []).length + ']');
+  /* 情况 B: 真跨窗(窗口起点确实变了) -> 重排任务 + 本月进度清零 */
+  st.cookingWindowStart = S2.solarTask().start - 21 * 86400;
+  st.cooking = { tasks: [{ id: 1, pro: 1, complete: 1 }], monthPro: 5, select: 2, base: { 1: 7 }, claimed: { 1: 1 } };
+  S2.solarTask();
+  ok(st.cooking.monthPro === 0, '真跨窗后本月进度清零 [' + st.cooking.monthPro + ']');
+  ok((st.cooking.tasks || []).length === 0 || st.cooking.tasks.length === 6, '真跨窗后任务被重排 [' + (st.cooking.tasks || []).length + ']');
+  ok(!st.cooking.claimed || Object.keys(st.cooking.claimed).length === 0, '真跨窗后已领记录清空(新一窗可以重新领)');
   const rf = global.MOCK_SEMANTIC['cooking_refresh_task'];
   if (typeof rf === 'function') ok(true, 'cooking_refresh_task 已被节气窗校验包住');
   else ok(true, '(cooking 层没装, 跳过刷新校验)');

@@ -30,8 +30,16 @@ const S = global.MOCK_SEMANTIC;
   ok(rf.code === 200 && S['other_load_touch']({}).cur === 1, 'CHUNFENG -> 解锁并装备樱花特效 [' + JSON.stringify(S['other_load_touch']({})) + ']');
   ok(S['item_use_gift_code']({ gift_code: 'WAGUA' }).code === 200 && S['other_load_touch']({}).list.length === 2, 'WAGUA -> 蛙爪印(有效期不看, 只记一次)');
   st.clover = 0;
-  ok(S['item_use_gift_code']({ gift_code: 'lingcat521' }).code === 200 && Number(st.clover) === 520, 'lingcat521 -> 520 三叶草 [' + st.clover + ']');
-  ok(S['item_use_gift_code']({ gift_code: 'LINGCAT521' }).code === 2, '同一个彩蛋码也只能领一次');
+  /* lingcat521 = 站长的专属彩蛋码: 521 三叶草 + 四叶草 + 兑换券, 且**可重复领**(new/cdkey.js 里的 repeat:true)。
+     普通码仍然"每码每人一次", 下面单独再验一次。 */
+  ok(S['item_use_gift_code']({ gift_code: 'lingcat521' }).code === 200 && Number(st.clover) === 521,
+     'lingcat521 -> 521 三叶草(专属彩蛋) [' + st.clover + ']');
+  ok(S['item_use_gift_code']({ gift_code: 'LINGCAT521' }).code === 200 && Number(st.clover) === 1042,
+     '专属彩蛋码可重复领(每次 +521) [' + st.clover + ']');
+  /* 普通码: 第二次必须回 2(已兑换) */
+  st.cdkeyUsed = []; st.clover = 0;
+  ok(S['item_use_gift_code']({ gift_code: 'CHUNFENG' }).code === 200, '普通码第一次兑换成功(顺带解锁特效)');
+  ok(S['item_use_gift_code']({ gift_code: 'CHUNFENG' }).code === 2, '普通码第二次被拒(code 2, 每码每人一次)');
 
   /* 中文码 + 道具类奖励 */
   st.cdkeyUsed = []; st.house = []; st.clover = 0;

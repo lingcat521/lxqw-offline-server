@@ -77,8 +77,8 @@ function boot() {
   ok(Array.isArray(window.MOCK_STATE.redeemed) && window.MOCK_STATE.redeemed.indexOf(7) >= 0, 'the redeemed prize id is recorded');
 
   /* survives a refresh */
-  window.MOCK_SAVE && window.MOCK_SAVE();
-  await new Promise(r => setTimeout(r, 1300));
+  (window.MOCK_SAVE_NOW || window.MOCK_SAVE)();     /* 立即落盘: 不赌 1.2s 防抖的时序 */
+  await new Promise(r => setTimeout(r, 1500));
   ok(!!SERVER_SAVE && !!SERVER_SAVE.collections && SERVER_SAVE.collections.length === hb3.collections.length,
      'the handbook state reached the server save (' + (SERVER_SAVE && SERVER_SAVE.collections || []).length + ')');
 
