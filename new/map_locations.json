@@ -1,0 +1,566 @@
+{
+ "regions": [
+  {
+   "key": "north",
+   "name": "北方"
+  },
+  {
+   "key": "south",
+   "name": "南方"
+  },
+  {
+   "key": "east",
+   "name": "东部"
+  },
+  {
+   "key": "west",
+   "name": "西部"
+  }
+ ],
+ "locations": [
+  {
+   "id": 1,
+   "name": "北京",
+   "region": "north",
+   "region_cn": "北方",
+   "x": 60,
+   "y": 70,
+   "tag": "g_beijing",
+   "postcards": [
+    2000,
+    2010,
+    2011,
+    2012,
+    2013
+   ]
+  },
+  {
+   "id": 2,
+   "name": "成都",
+   "region": "west",
+   "region_cn": "西部",
+   "x": 60,
+   "y": 110,
+   "tag": "g_chengdu",
+   "postcards": [
+    2001,
+    2014,
+    2015,
+    2016,
+    2077
+   ]
+  },
+  {
+   "id": 3,
+   "name": "重庆",
+   "region": "west",
+   "region_cn": "西部",
+   "x": 130,
+   "y": 110,
+   "tag": "g_chongqing",
+   "postcards": [
+    2002,
+    2017
+   ]
+  },
+  {
+   "id": 4,
+   "name": "广州",
+   "region": "south",
+   "region_cn": "南方",
+   "x": 80,
+   "y": 110,
+   "tag": "g_guangzhou",
+   "postcards": [
+    2003,
+    2018,
+    2019,
+    2101,
+    2102,
+    2121,
+    2148,
+    2149
+   ]
+  },
+  {
+   "id": 5,
+   "name": "桂林",
+   "region": "south",
+   "region_cn": "南方",
+   "x": 150,
+   "y": 110,
+   "tag": "g_guilin",
+   "postcards": [
+    2004,
+    2020,
+    2021
+   ]
+  },
+  {
+   "id": 6,
+   "name": "杭州",
+   "region": "east",
+   "region_cn": "东部",
+   "x": 80,
+   "y": 70,
+   "tag": "g_hangzhou",
+   "postcards": [
+    2005,
+    2022,
+    2023
+   ]
+  },
+  {
+   "id": 7,
+   "name": "苏州",
+   "region": "east",
+   "region_cn": "东部",
+   "x": 150,
+   "y": 70,
+   "tag": "g_suzhou",
+   "postcards": [
+    2006,
+    2024,
+    2025,
+    2144
+   ]
+  },
+  {
+   "id": 8,
+   "name": "天津",
+   "region": "north",
+   "region_cn": "北方",
+   "x": 130,
+   "y": 70,
+   "tag": "g_tianjin",
+   "postcards": [
+    2007,
+    2026
+   ]
+  },
+  {
+   "id": 9,
+   "name": "台湾十分",
+   "region": "south",
+   "region_cn": "南方",
+   "x": 220,
+   "y": 110,
+   "tag": "g_tw_shifen",
+   "postcards": [
+    2008,
+    2027,
+    2029
+   ]
+  },
+  {
+   "id": 10,
+   "name": "台湾垦丁",
+   "region": "south",
+   "region_cn": "南方",
+   "x": 290,
+   "y": 110,
+   "tag": "g_tw_kending",
+   "postcards": [
+    2009,
+    2028,
+    2030
+   ]
+  },
+  {
+   "id": 11,
+   "name": "香港",
+   "region": "south",
+   "region_cn": "南方",
+   "x": 360,
+   "y": 110,
+   "tag": "g_xianggang",
+   "postcards": [
+    2031,
+    2032,
+    2034
+   ]
+  },
+  {
+   "id": 12,
+   "name": "哈尔滨",
+   "region": "north",
+   "region_cn": "北方",
+   "x": 200,
+   "y": 70,
+   "tag": "g_haerbin",
+   "postcards": [
+    2036,
+    2037,
+    2038
+   ]
+  },
+  {
+   "id": 13,
+   "name": "张家界",
+   "region": "south",
+   "region_cn": "南方",
+   "x": 430,
+   "y": 110,
+   "tag": "g_zhangjiajie",
+   "postcards": [
+    2044,
+    2045,
+    2046
+   ]
+  },
+  {
+   "id": 14,
+   "name": "武汉",
+   "region": "east",
+   "region_cn": "东部",
+   "x": 220,
+   "y": 70,
+   "tag": "g_wuhan",
+   "postcards": [
+    2047,
+    2048,
+    2049,
+    2050
+   ]
+  },
+  {
+   "id": 15,
+   "name": "洛阳",
+   "region": "north",
+   "region_cn": "北方",
+   "x": 270,
+   "y": 70,
+   "tag": "g_luoyang",
+   "postcards": [
+    2051,
+    2052,
+    2053
+   ]
+  },
+  {
+   "id": 16,
+   "name": "西安",
+   "region": "west",
+   "region_cn": "西部",
+   "x": 200,
+   "y": 110,
+   "tag": "g_xian",
+   "postcards": [
+    2054,
+    2055,
+    2056
+   ]
+  },
+  {
+   "id": 17,
+   "name": "酒泉",
+   "region": "west",
+   "region_cn": "西部",
+   "x": 270,
+   "y": 110,
+   "tag": "g_jiuquan",
+   "postcards": [
+    2057,
+    2059,
+    2079
+   ]
+  },
+  {
+   "id": 18,
+   "name": "云南",
+   "region": "west",
+   "region_cn": "西部",
+   "x": 340,
+   "y": 110,
+   "tag": "g_yunnan",
+   "postcards": [
+    2060,
+    2061,
+    2080
+   ]
+  },
+  {
+   "id": 19,
+   "name": "拉萨",
+   "region": "west",
+   "region_cn": "西部",
+   "x": 410,
+   "y": 110,
+   "tag": "g_lasa",
+   "postcards": [
+    2064,
+    2065,
+    2066,
+    2068
+   ]
+  },
+  {
+   "id": 20,
+   "name": "上海",
+   "region": "east",
+   "region_cn": "东部",
+   "x": 290,
+   "y": 70,
+   "tag": "g_shanghai",
+   "postcards": [
+    2069,
+    2071,
+    2072
+   ]
+  },
+  {
+   "id": 21,
+   "name": "海南",
+   "region": "south",
+   "region_cn": "南方",
+   "x": 80,
+   "y": 190,
+   "tag": "g_hainan",
+   "postcards": [
+    2073,
+    2074,
+    2078
+   ]
+  },
+  {
+   "id": 22,
+   "name": "贵州",
+   "region": "west",
+   "region_cn": "西部",
+   "x": 60,
+   "y": 190,
+   "tag": "g_guizhou",
+   "postcards": [
+    2092,
+    2093,
+    2094
+   ]
+  },
+  {
+   "id": 23,
+   "name": "宁夏",
+   "region": "west",
+   "region_cn": "西部",
+   "x": 130,
+   "y": 190,
+   "tag": "g_ningxia",
+   "postcards": [
+    2095,
+    2096,
+    2097
+   ]
+  },
+  {
+   "id": 24,
+   "name": "福建",
+   "region": "south",
+   "region_cn": "南方",
+   "x": 150,
+   "y": 190,
+   "tag": "g_fujian",
+   "postcards": [
+    2087,
+    2088,
+    2117,
+    2118
+   ]
+  },
+  {
+   "id": 25,
+   "name": "江西",
+   "region": "east",
+   "region_cn": "东部",
+   "x": 360,
+   "y": 70,
+   "tag": "g_jiangxi",
+   "postcards": [
+    2089,
+    2090,
+    2091
+   ]
+  },
+  {
+   "id": 26,
+   "name": "安徽",
+   "region": "east",
+   "region_cn": "东部",
+   "x": 430,
+   "y": 70,
+   "tag": "g_anhui",
+   "postcards": [
+    2098,
+    2099,
+    2100
+   ]
+  },
+  {
+   "id": 27,
+   "name": "辽宁",
+   "region": "north",
+   "region_cn": "北方",
+   "x": 340,
+   "y": 70,
+   "tag": "g_liaoning",
+   "postcards": [
+    2103,
+    2104,
+    2145
+   ]
+  },
+  {
+   "id": 28,
+   "name": "青岛",
+   "region": "east",
+   "region_cn": "东部",
+   "x": 80,
+   "y": 150,
+   "tag": "g_qingdao",
+   "postcards": [
+    2105,
+    2106
+   ]
+  },
+  {
+   "id": 29,
+   "name": "山西",
+   "region": "north",
+   "region_cn": "北方",
+   "x": 410,
+   "y": 70,
+   "tag": "g_shanxi",
+   "postcards": [
+    2122,
+    2123,
+    2124,
+    2125,
+    2146,
+    2147
+   ]
+  },
+  {
+   "id": 30,
+   "name": "吉林",
+   "region": "north",
+   "region_cn": "北方",
+   "x": 60,
+   "y": 150,
+   "tag": "g_jilin",
+   "postcards": [
+    2126,
+    2127,
+    2128,
+    2129
+   ]
+  },
+  {
+   "id": 31,
+   "name": "澳门",
+   "region": "south",
+   "region_cn": "南方",
+   "x": 220,
+   "y": 190,
+   "tag": "g_aomen",
+   "postcards": [
+    2130,
+    2131,
+    2132,
+    2133
+   ]
+  },
+  {
+   "id": 32,
+   "name": "青海",
+   "region": "west",
+   "region_cn": "西部",
+   "x": 200,
+   "y": 190,
+   "tag": "g_qinghai",
+   "postcards": [
+    2134,
+    2135,
+    2136,
+    2137
+   ]
+  },
+  {
+   "id": 33,
+   "name": "河北",
+   "region": "north",
+   "region_cn": "北方",
+   "x": 130,
+   "y": 150,
+   "tag": "g_hebei",
+   "postcards": [
+    2140,
+    2141,
+    2142,
+    2143
+   ]
+  },
+  {
+   "id": 100,
+   "name": "江西省博物馆",
+   "region": "east",
+   "region_cn": "东部",
+   "x": 150,
+   "y": 150,
+   "tag": "g_bwg_jiangxi",
+   "postcards": [
+    2109,
+    2110
+   ]
+  },
+  {
+   "id": 101,
+   "name": "山东博物馆",
+   "region": "east",
+   "region_cn": "东部",
+   "x": 220,
+   "y": 150,
+   "tag": "g_bwg_shandong",
+   "postcards": [
+    2111,
+    2112
+   ]
+  },
+  {
+   "id": 102,
+   "name": "南越王博物院",
+   "region": "south",
+   "region_cn": "南方",
+   "x": 290,
+   "y": 190,
+   "tag": "g_bwg_nanyuewang",
+   "postcards": [
+    2113,
+    2114
+   ]
+  },
+  {
+   "id": 103,
+   "name": "吴文化博物馆",
+   "region": "east",
+   "region_cn": "东部",
+   "x": 290,
+   "y": 150,
+   "tag": "g_bwg_wuwenhua",
+   "postcards": [
+    2115,
+    2116
+   ]
+  },
+  {
+   "id": 104,
+   "name": "山西博物院",
+   "region": "north",
+   "region_cn": "北方",
+   "x": 200,
+   "y": 150,
+   "tag": "g_bwg_shanxi",
+   "postcards": [
+    2119,
+    2120
+   ]
+  }
+ ]
+}

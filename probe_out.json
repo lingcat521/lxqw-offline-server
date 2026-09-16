@@ -1,0 +1,873 @@
+{
+ "client_hello": {
+  "fields": [
+   "timestamp"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "client_load_role": {
+  "fields": [
+   "frog",
+   "frog.achieves",
+   "frog.achieves_time",
+   "frog.achieves_time.id",
+   "frog.achieves_time.length",
+   "frog.achieves_time.time",
+   "frog.cur_achieve",
+   "frog.decoration",
+   "frog.icon",
+   "frog.motion",
+   "frog.name",
+   "frog.pic_show",
+   "frog.status",
+   "frog.taobao_data",
+   "frog.today_step",
+   "misc",
+   "misc.create_time",
+   "misc.picture_cnt",
+   "misc.wx_my_reward",
+   "misc.wx_push_reward",
+   "res",
+   "res.clover_point",
+   "res.ticket",
+   "settings",
+   "settings.client",
+   "settings.push_switch",
+   "settings.rank_switch",
+   "uid"
+  ],
+  "arrays": [
+   "frog.achieves",
+   "frog.achieves_time",
+   "frog.decoration"
+  ],
+  "req": false,
+  "err": null
+ },
+ "client_gm": {
+  "fields": [],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "client_load_events": {
+  "fields": [],
+  "arrays": [
+   ""
+  ],
+  "req": false,
+  "err": null
+ },
+ "client_load_decorate": {
+  "fields": [
+   "has_list",
+   "put_id",
+   "status"
+  ],
+  "arrays": [
+   "has_list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "clover_load_clovers": {
+  "fields": [],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "clover_update": {
+  "fields": [
+   "clover"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "clover_notice_get": {
+  "fields": [
+   "clover",
+   "reason"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "hall_gen_token": {
+  "fields": [
+   "code",
+   "token"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "hall_login": {
+  "fields": [
+   "account",
+   "code"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "hall_enter_game": {
+  "fields": [
+   "code"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "item_load_items": {
+  "fields": [
+   "bag",
+   "bag_completed",
+   "bag_conflict",
+   "desk",
+   "desk_conflict",
+   "gacha",
+   "gacha.color_ball",
+   "house",
+   "house.count",
+   "house.item_id",
+   "house.length"
+  ],
+  "arrays": [
+   "house"
+  ],
+  "req": false,
+  "err": null
+ },
+ "item_load_handbook": {
+  "fields": [
+   "collections",
+   "specialtys"
+  ],
+  "arrays": [
+   "collections",
+   "specialtys"
+  ],
+  "req": false,
+  "err": null
+ },
+ "item_buy": {
+  "fields": [
+   "ads_id",
+   "ads_id.length",
+   "ticket"
+  ],
+  "arrays": [
+   "ads_id"
+  ],
+  "req": false,
+  "err": null
+ },
+ "item_gacha": {
+  "fields": [
+   "ticket"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "item_load_shop_info": {
+  "fields": [
+   "purchased",
+   "purchased.count",
+   "purchased.item_id",
+   "purchased.length"
+  ],
+  "arrays": [
+   "purchased"
+  ],
+  "req": false,
+  "err": null
+ },
+ "item_update": {
+  "fields": [
+   "item",
+   "item.count",
+   "item.item_id"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "item_update_ticket": {
+  "fields": [
+   "ticket"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "item_load_select_gift": {
+  "fields": [
+   "list"
+  ],
+  "arrays": [
+   "list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "guest_load": {
+  "fields": [],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "album_load": {
+  "fields": [
+   "pictures",
+   "pictures.length",
+   "start",
+   "total"
+  ],
+  "arrays": [
+   "pictures"
+  ],
+  "req": false,
+  "err": null
+ },
+ "album_load_all": {
+  "fields": [
+   "id_list",
+   "id_list.id",
+   "id_list.length"
+  ],
+  "arrays": [
+   "id_list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "album_load_by_id_list": {
+  "fields": [
+   "pic_list",
+   "pic_list.id",
+   "pic_list.length"
+  ],
+  "arrays": [
+   "pic_list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "album_load_new": {
+  "fields": [
+   "has_ads",
+   "is_share",
+   "pictures",
+   "pictures.for_ads",
+   "pictures.length",
+   "visted_pic",
+   "visted_pic.length"
+  ],
+  "arrays": [
+   "pictures",
+   "visted_pic"
+  ],
+  "req": false,
+  "err": null
+ },
+ "album_load_recover": {
+  "fields": [
+   "pictures"
+  ],
+  "arrays": [
+   "pictures"
+  ],
+  "req": false,
+  "err": null
+ },
+ "mail_load_mails": {
+  "fields": [
+   "mails",
+   "mails.length",
+   "start",
+   "total"
+  ],
+  "arrays": [
+   "mails"
+  ],
+  "req": true,
+  "err": null
+ },
+ "mail_load": {
+  "fields": [],
+  "arrays": [
+   ""
+  ],
+  "req": false,
+  "err": null
+ },
+ "mail_ejoy_active_code": {
+  "fields": [],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "story_load": {
+  "fields": [
+   "new_story_id",
+   "stories"
+  ],
+  "arrays": [
+   "stories"
+  ],
+  "req": false,
+  "err": null
+ },
+ "visit_load": {
+  "fields": [
+   "acquire",
+   "visitor"
+  ],
+  "arrays": [
+   "acquire"
+  ],
+  "req": false,
+  "err": null
+ },
+ "rank_load": {
+  "fields": [
+   "first_intro",
+   "info",
+   "info.length",
+   "me"
+  ],
+  "arrays": [
+   "info"
+  ],
+  "req": true,
+  "err": null
+ },
+ "rank_get_intro": {
+  "fields": [
+   "intro"
+  ],
+  "arrays": [],
+  "req": true,
+  "err": null
+ },
+ "travel_load_gift": {
+  "fields": [
+   "pictures",
+   "specialtys",
+   "specialtys.count",
+   "specialtys.item_id",
+   "specialtys.length"
+  ],
+  "arrays": [
+   "pictures",
+   "specialtys"
+  ],
+  "req": false,
+  "err": null
+ },
+ "travel_load_note": {
+  "fields": [
+   "note_list",
+   "note_list.id",
+   "note_list.length",
+   "note_list.read",
+   "note_list.timestamp"
+  ],
+  "arrays": [
+   "note_list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "pray_load_grays": {
+  "fields": [
+   "boxes",
+   "stamp_new",
+   "stamps",
+   "wish_new",
+   "wishs"
+  ],
+  "arrays": [
+   "boxes",
+   "stamps",
+   "wishs"
+  ],
+  "req": false,
+  "err": null
+ },
+ "cooking_load_cooking": {
+  "fields": [],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "hall_reconnect": {
+  "fields": [
+   "account",
+   "code"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "museum_load": {
+  "fields": [
+   "museum_list"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "furniture_load_furniture": {
+  "fields": [
+   "replace_fur",
+   "shop",
+   "shop.shop_list"
+  ],
+  "arrays": [
+   "replace_fur",
+   "shop.shop_list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "furniture_buy_shop": {
+  "fields": [],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "furniture_putin_bench": {
+  "fields": [],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "furniture_takeout_bench": {
+  "fields": [],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "furniture_load_tumbler": {
+  "fields": [
+   "tumbler_list"
+  ],
+  "arrays": [
+   "tumbler_list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "furniture_load_compost": {
+  "fields": [
+   "box_list",
+   "compost_list"
+  ],
+  "arrays": [
+   "box_list",
+   "compost_list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "furniture_load_pocket": {
+  "fields": [
+   "list"
+  ],
+  "arrays": [
+   "list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "guest_load_drawing": {
+  "fields": [
+   "colls",
+   "pages"
+  ],
+  "arrays": [
+   "colls",
+   "pages"
+  ],
+  "req": false,
+  "err": null
+ },
+ "guest_accept_invit": {
+  "fields": [
+   "code"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "guest_putin_bag": {
+  "fields": [
+   "code"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "guest_takeout_bag": {
+  "fields": [
+   "code"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "museumday_load": {
+  "fields": [],
+  "arrays": [
+   ""
+  ],
+  "req": false,
+  "err": null
+ },
+ "museumday_arrive": {
+  "fields": [],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "museumday_info": {
+  "fields": [
+   "compass",
+   "task_num"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "recharge_load": {
+  "fields": [
+   "field",
+   "sack"
+  ],
+  "arrays": [
+   "field",
+   "sack"
+  ],
+  "req": false,
+  "err": null
+ },
+ "recharge_load_gift": {
+  "fields": [
+   "gift"
+  ],
+  "arrays": [
+   "gift"
+  ],
+  "req": false,
+  "err": null
+ },
+ "recharge_update_num": {
+  "fields": [
+   "change",
+   "water"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "task_load": {
+  "fields": [
+   "list",
+   "list.id",
+   "list.length",
+   "list.pro",
+   "tasks"
+  ],
+  "arrays": [
+   "list",
+   "tasks"
+  ],
+  "req": false,
+  "err": null
+ },
+ "task_load_list": {
+  "fields": [
+   "reward",
+   "reward.id",
+   "reward.length",
+   "reward.pro"
+  ],
+  "arrays": [
+   "reward"
+  ],
+  "req": false,
+  "err": null
+ },
+ "greetcard_load": {
+  "fields": [
+   "card_info"
+  ],
+  "arrays": [
+   ""
+  ],
+  "req": false,
+  "err": null
+ },
+ "greetcard_get_task_item": {
+  "fields": [
+   "list"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "capsule_load": {
+  "fields": [],
+  "arrays": [
+   ""
+  ],
+  "req": false,
+  "err": null
+ },
+ "capsule_load_coin": {
+  "fields": [
+   "coin",
+   "pre_coin"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "capsule_load_task": {
+  "fields": [
+   "task_list"
+  ],
+  "arrays": [
+   "task_list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "share_load": {
+  "fields": [
+   "pic_list",
+   "pic_list.clover",
+   "pic_list.id",
+   "pic_list.length"
+  ],
+  "arrays": [
+   "pic_list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "partycake_load": {
+  "fields": [
+   "cream",
+   "cur_state",
+   "end_time",
+   "layers",
+   "part",
+   "pre_cream",
+   "pre_sugar",
+   "share_get",
+   "sugar",
+   "task_list"
+  ],
+  "arrays": [
+   "",
+   "layers",
+   "share_get",
+   "task_list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "partycake_load_mate": {
+  "fields": [
+   "pre_cream",
+   "pre_sugar"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "partycake_load_task": {
+  "fields": [
+   "task",
+   "task.id"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "partycake_load_qa": {
+  "fields": [
+   "answer",
+   "guest",
+   "reward",
+   "wrong"
+  ],
+  "arrays": [
+   "answer",
+   "reward"
+  ],
+  "req": false,
+  "err": null
+ },
+ "springcard_load": {
+  "fields": [
+   "box_id",
+   "buy_num",
+   "can_buy_num",
+   "card_info",
+   "end_time",
+   "items",
+   "reward_list",
+   "share_code",
+   "share_get",
+   "share_num",
+   "task_harvest",
+   "task_item"
+  ],
+  "arrays": [
+   "items",
+   "reward_list",
+   "task_item"
+  ],
+  "req": false,
+  "err": null
+ },
+ "adsmgr_load": {
+  "fields": [],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "encyclopedia_load": {
+  "fields": [
+   "show_sub",
+   "show_sub.id",
+   "show_sub.length",
+   "show_sub.sub_id",
+   "unlock_desc",
+   "unlock_desc.id",
+   "unlock_desc.length",
+   "unlock_desc.list",
+   "unlock_list"
+  ],
+  "arrays": [
+   "",
+   "show_sub",
+   "unlock_desc",
+   "unlock_desc.list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "encytravel_load": {
+  "fields": [
+   "show_sub",
+   "show_sub.id",
+   "show_sub.length",
+   "show_sub.sub_id",
+   "unlock_desc",
+   "unlock_desc.id",
+   "unlock_desc.length",
+   "unlock_desc.list",
+   "unlock_list"
+  ],
+  "arrays": [
+   "",
+   "show_sub",
+   "unlock_desc",
+   "unlock_desc.list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "lottery_load": {
+  "fields": [
+   "phase"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "calendar_load": {
+  "fields": [
+   "lucky_days",
+   "lucky_days.day",
+   "lucky_days.item_id",
+   "lucky_days.length",
+   "new_flag",
+   "st_days",
+   "st_days.day",
+   "st_days.item_id",
+   "st_days.length",
+   "task_list"
+  ],
+  "arrays": [
+   "lucky_days",
+   "new_flag",
+   "st_days",
+   "task_list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "calendar_load_note": {
+  "fields": [
+   "list"
+  ],
+  "arrays": [
+   "list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "calendar_task_update": {
+  "fields": [
+   "task",
+   "task.id"
+  ],
+  "arrays": [],
+  "req": false,
+  "err": null
+ },
+ "misc_moment_load": {
+  "fields": [
+   "list",
+   "list.length"
+  ],
+  "arrays": [
+   "list"
+  ],
+  "req": false,
+  "err": null
+ },
+ "animpicture_load": {
+  "fields": [
+   "pic_list",
+   "pic_list.exp_pic",
+   "pic_list.length",
+   "pic_list.pictures"
+  ],
+  "arrays": [
+   "",
+   "pic_list",
+   "pic_list.exp_pic",
+   "pic_list.pictures"
+  ],
+  "req": false,
+  "err": null
+ },
+ "wishingpool_load": {
+  "fields": [],
+  "arrays": [
+   ""
+  ],
+  "req": false,
+  "err": null
+ }
+}

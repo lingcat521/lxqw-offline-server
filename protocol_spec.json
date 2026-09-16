@@ -1,0 +1,943 @@
+{
+ "adsmgr_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [],
+  "len": 73
+ },
+ "adsmgr_refuse": null,
+ "adsmgr_share": null,
+ "adsmgr_share_ads": null,
+ "adsmgr_shop_free": null,
+ "album_delete": null,
+ "album_delete_new": null,
+ "album_load": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "pictures",
+   "start",
+   "total"
+  ],
+  "len": 207
+ },
+ "album_load_all": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "id_list"
+  ],
+  "len": 442
+ },
+ "album_load_by_id_list": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "pic_list"
+  ],
+  "len": 317
+ },
+ "album_load_new": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "has_ads",
+   "is_share",
+   "pictures",
+   "visted_pic"
+  ],
+  "len": 994
+ },
+ "album_load_recover": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "pictures"
+  ],
+  "len": 134
+ },
+ "album_recover": null,
+ "album_save_new": null,
+ "animpicture_add_pic": null,
+ "animpicture_album_add_pic": null,
+ "animpicture_album_remove_pic": null,
+ "animpicture_get_item": null,
+ "animpicture_guide": null,
+ "animpicture_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "pic_list"
+  ],
+  "len": 231
+ },
+ "animpicture_open_album": null,
+ "animpicture_remove_pic": null,
+ "animpicture_select_pic": null,
+ "animpicture_use_item": null,
+ "annual_load": null,
+ "annual_share": null,
+ "calendar_get_beginer_reward": null,
+ "calendar_get_code_reward": null,
+ "calendar_get_luck_reward": null,
+ "calendar_get_st_reward": null,
+ "calendar_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "lucky_days",
+   "new_flag",
+   "st_days",
+   "task_list"
+  ],
+  "len": 327
+ },
+ "calendar_load_note": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "list"
+  ],
+  "len": 48
+ },
+ "calendar_task_update": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "task"
+  ],
+  "len": 72
+ },
+ "capsule_fast_task": null,
+ "capsule_get_coin": null,
+ "capsule_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [],
+  "len": 382
+ },
+ "capsule_load_coin": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "coin",
+   "pre_coin"
+  ],
+  "len": 136
+ },
+ "capsule_load_task": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "task_list"
+  ],
+  "len": 189
+ },
+ "capsule_patch": null,
+ "capsule_twist": null,
+ "client_add_push_id": null,
+ "client_change_decorate": null,
+ "client_confirm_event": null,
+ "client_draw_taobao": null,
+ "client_get_my_wx_reward": null,
+ "client_get_push_reward": null,
+ "client_gm": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [],
+  "len": 2
+ },
+ "client_hello": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "timestamp"
+  ],
+  "len": 99
+ },
+ "client_load_all_info": null,
+ "client_load_decorate": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "has_list",
+   "put_id",
+   "status"
+  ],
+  "len": 188
+ },
+ "client_load_events": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "evt_type"
+  ],
+  "len": 525
+ },
+ "client_load_role": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "frog"
+  ],
+  "len": 596
+ },
+ "client_rename_cost": null,
+ "client_set_achieve": null,
+ "client_set_ads": null,
+ "client_set_channel": null,
+ "client_set_channel_id": null,
+ "client_set_client": null,
+ "client_set_client_envinfo": null,
+ "client_set_icon": null,
+ "client_set_lang": null,
+ "client_set_name": null,
+ "client_set_pic_show": null,
+ "client_set_wx_open_id": null,
+ "client_share_publicity": null,
+ "client_switch_push": null,
+ "client_switch_rank": null,
+ "client_taobao_import": null,
+ "client_user_action": null,
+ "clover_harvest": null,
+ "clover_harvest_resend": null,
+ "clover_load_clovers": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [],
+  "len": 169
+ },
+ "clover_notice_get": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "clover",
+   "reason",
+   "view"
+  ],
+  "len": 335
+ },
+ "clover_update": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "clover"
+  ],
+  "len": 46
+ },
+ "cooking_complete_task": null,
+ "cooking_load_cooking": {
+  "params": [
+   "e"
+  ],
+  "fields": [],
+  "len": 196
+ },
+ "cooking_look_ad": null,
+ "cooking_refresh_task": null,
+ "cooking_select": null,
+ "cooking_share": null,
+ "cooking_start_cooking": null,
+ "encyclopedia_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "show_sub",
+   "unlock_desc",
+   "unlock_list"
+  ],
+  "len": 314
+ },
+ "encyclopedia_set_show_sub": null,
+ "encytravel_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "show_sub",
+   "unlock_desc",
+   "unlock_list"
+  ],
+  "len": 314
+ },
+ "encytravel_set_show_sub": null,
+ "furniture_buy_shop": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [],
+  "len": 2
+ },
+ "furniture_flowerpot_harvest": null,
+ "furniture_load_compost": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "box_list",
+   "compost_list"
+  ],
+  "len": 216
+ },
+ "furniture_load_furniture": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "replace_fur",
+   "shop"
+  ],
+  "len": 845
+ },
+ "furniture_load_pocket": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "list"
+  ],
+  "len": 166
+ },
+ "furniture_load_tumbler": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "tumbler_list"
+  ],
+  "len": 159
+ },
+ "furniture_pocket_get": null,
+ "furniture_putin_bench": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [],
+  "len": 69
+ },
+ "furniture_putin_box": null,
+ "furniture_replace_compost": null,
+ "furniture_replace_fur": null,
+ "furniture_replace_pocket": null,
+ "furniture_replace_tumbler": null,
+ "furniture_takeout_bench": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [],
+  "len": 69
+ },
+ "furniture_takeout_box": null,
+ "greetcard_buy": null,
+ "greetcard_change_bg": null,
+ "greetcard_change_bless": null,
+ "greetcard_feedback_gift": null,
+ "greetcard_get_reward": null,
+ "greetcard_get_task_item": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "list"
+  ],
+  "len": 216
+ },
+ "greetcard_get_task_reward": null,
+ "greetcard_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "card_info"
+  ],
+  "len": 460
+ },
+ "greetcard_load_count": null,
+ "greetcard_put_tags": null,
+ "greetcard_read_new": null,
+ "greetcard_send": null,
+ "greetcard_send_gift": null,
+ "greetcard_stock": null,
+ "guest_accept_invit": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "code"
+  ],
+  "len": 11
+ },
+ "guest_confirm": null,
+ "guest_finish": null,
+ "guest_load": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [],
+  "len": 33
+ },
+ "guest_load_drawing": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "colls",
+   "pages"
+  ],
+  "len": 206
+ },
+ "guest_lock_bag": null,
+ "guest_putin_bag": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "code"
+  ],
+  "len": 11
+ },
+ "guest_serve": null,
+ "guest_set_expire_time": null,
+ "guest_takeout_bag": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "code"
+  ],
+  "len": 11
+ },
+ "hall_enter_game": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "code"
+  ],
+  "len": 114
+ },
+ "hall_gen_token": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "code",
+   "token"
+  ],
+  "len": 86
+ },
+ "hall_hello": null,
+ "hall_leave_game": null,
+ "hall_login": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "account",
+   "code"
+  ],
+  "len": 252
+ },
+ "hall_reconnect": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "account",
+   "code"
+  ],
+  "len": 252
+ },
+ "hall_report_remote_addr": null,
+ "item_buy": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "ads_id",
+   "share_id",
+   "ticket"
+  ],
+  "len": 493
+ },
+ "item_gacha": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "ticket"
+  ],
+  "len": 101
+ },
+ "item_load_handbook": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "collections",
+   "specialtys"
+  ],
+  "len": 201
+ },
+ "item_load_items": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "bag",
+   "bag_completed",
+   "bag_conflict",
+   "desk",
+   "desk_conflict",
+   "gacha",
+   "house"
+  ],
+  "len": 595
+ },
+ "item_load_select_gift": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "list"
+  ],
+  "len": 203
+ },
+ "item_load_shop_info": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "purchased"
+  ],
+  "len": 259
+ },
+ "item_putin_bag": null,
+ "item_putin_desk": null,
+ "item_redeem_prize": null,
+ "item_select_gift": null,
+ "item_set_bag_completed": null,
+ "item_takeout_bag": null,
+ "item_takeout_desk": null,
+ "item_update": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "item"
+  ],
+  "len": 478
+ },
+ "item_update_ticket": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "ticket"
+  ],
+  "len": 46
+ },
+ "item_use_gift_code": null,
+ "koto_arrive": null,
+ "koto_dir_compass": null,
+ "koto_get_items": null,
+ "koto_info": null,
+ "koto_load": null,
+ "koto_load_path": null,
+ "koto_random_compass": null,
+ "koto_refresh": null,
+ "koto_start_advance": null,
+ "lottery_confirm_reward": null,
+ "lottery_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "phase"
+  ],
+  "len": 258
+ },
+ "lottery_open": null,
+ "lottery_select": null,
+ "mail_ejoy_active_code": {
+  "params": [
+   "e"
+  ],
+  "fields": [],
+  "len": 2
+ },
+ "mail_load": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [],
+  "len": 42
+ },
+ "mail_load_mails": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "mails",
+   "start",
+   "total"
+  ],
+  "len": 350
+ },
+ "mail_open": null,
+ "mail_read": null,
+ "misc_moment_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "list"
+  ],
+  "len": 84
+ },
+ "misc_moment_unlock": null,
+ "museum_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "museum_list"
+  ],
+  "len": 100
+ },
+ "museumday_arrive": {
+  "params": [],
+  "fields": [],
+  "len": 2
+ },
+ "museumday_dir_compass": null,
+ "museumday_get_items": null,
+ "museumday_info": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "compass",
+   "task_num"
+  ],
+  "len": 145
+ },
+ "museumday_inspire": null,
+ "museumday_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [],
+  "len": 313
+ },
+ "museumday_load_path": null,
+ "museumday_random_compass": null,
+ "museumday_refresh": null,
+ "museumday_start_advance": null,
+ "other_req_touch": null,
+ "partycake_answer": null,
+ "partycake_get_mate": null,
+ "partycake_light": null,
+ "partycake_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "cream",
+   "cur_state",
+   "end_time",
+   "layers",
+   "part",
+   "pre_cream",
+   "pre_sugar",
+   "share_get",
+   "sugar",
+   "task_list"
+  ],
+  "len": 801
+ },
+ "partycake_load_mate": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "pre_cream",
+   "pre_sugar"
+  ],
+  "len": 83
+ },
+ "partycake_load_qa": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "answer",
+   "guest",
+   "reward",
+   "wrong"
+  ],
+  "len": 141
+ },
+ "partycake_load_task": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "task"
+  ],
+  "len": 41
+ },
+ "partycake_make": null,
+ "partycake_reward_light": null,
+ "partycake_reward_make": null,
+ "partycake_reward_qa": null,
+ "partycake_reward_share": null,
+ "pray_compose": null,
+ "pray_confirm_make_box": null,
+ "pray_load_grays": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "boxes",
+   "stamp_new",
+   "stamps",
+   "wish_new",
+   "wishs"
+  ],
+  "len": 233
+ },
+ "rank_get_intro": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "intro"
+  ],
+  "len": 267
+ },
+ "rank_like": null,
+ "rank_load": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "first_intro",
+   "info",
+   "me"
+  ],
+  "len": 819
+ },
+ "recharge_cancel_pay": null,
+ "recharge_change": null,
+ "recharge_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "field",
+   "sack"
+  ],
+  "len": 165
+ },
+ "recharge_load_gift": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "gift"
+  ],
+  "len": 188
+ },
+ "recharge_ready_pay": null,
+ "recharge_update_num": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "change",
+   "water"
+  ],
+  "len": 117
+ },
+ "recharge_water": null,
+ "share_get_reward": null,
+ "share_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "pic_list"
+  ],
+  "len": 109
+ },
+ "springcard_buy": null,
+ "springcard_change_bg": null,
+ "springcard_change_bless": null,
+ "springcard_get_reward": null,
+ "springcard_get_share_tags": null,
+ "springcard_get_task_item": null,
+ "springcard_get_task_reward": null,
+ "springcard_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "box_id",
+   "buy_num",
+   "can_buy_num",
+   "card_info",
+   "end_time",
+   "items",
+   "reward_list",
+   "share_code",
+   "share_get",
+   "share_num",
+   "task_harvest",
+   "task_item"
+  ],
+  "len": 787
+ },
+ "springcard_load_count": null,
+ "springcard_put_tags": null,
+ "springcard_send": null,
+ "springcard_share_tags": null,
+ "story_feedback_gift": null,
+ "story_load": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "new_story_id",
+   "stories"
+  ],
+  "len": 88
+ },
+ "story_read_new_story": null,
+ "story_send_gift": null,
+ "task_client_pro": null,
+ "task_get_list_reward": null,
+ "task_get_reward": null,
+ "task_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "list",
+   "tasks"
+  ],
+  "len": 218
+ },
+ "task_load_list": {
+  "params": [
+   "e"
+  ],
+  "fields": [
+   "reward"
+  ],
+  "len": 122
+ },
+ "travel_album_to_gift": null,
+ "travel_bag_to_gift": null,
+ "travel_gift_delete_album": null,
+ "travel_gift_to_album": null,
+ "travel_gift_to_bag": null,
+ "travel_load_gift": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "pictures",
+   "specialtys"
+  ],
+  "len": 404
+ },
+ "travel_load_note": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "note_list"
+  ],
+  "len": 307
+ },
+ "travel_read_note": null,
+ "tutorial_step_ask_award": null,
+ "tutorial_step_ask_award_q": null,
+ "tutorial_step_open_door": null,
+ "tutorial_step_open_door_q": null,
+ "visit_load": {
+  "params": [
+   "e",
+   "t"
+  ],
+  "fields": [
+   "acquire",
+   "visitor"
+  ],
+  "len": 431
+ },
+ "visit_open": null,
+ "visit_set_carpet": null,
+ "visit_set_expire_time": null,
+ "wishingpool_load": {
+  "params": [
+   "e"
+  ],
+  "fields": [],
+  "len": 199
+ },
+ "wishingpool_wish": null
+}

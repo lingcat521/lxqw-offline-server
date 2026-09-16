@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>旅行地图（离线）</title>
+<style>
+  :root { --ink:#4a4034; --paper:#f6efdf; --line:#cbb894; --accent:#7aa05a; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent }
+  body { margin:0; padding:16px 14px 40px; background:var(--paper); color:var(--ink);
+         font:15px/1.6 -apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif }
+  h1 { font-size:20px; margin:0 0 4px; letter-spacing:2px }
+  .sub { color:#8b7c63; font-size:12px; margin-bottom:14px }
+  .card { background:#fffdf7; border:1px solid var(--line); border-radius:12px; padding:12px 14px; margin-bottom:12px }
+  .stats { display:flex; flex-wrap:wrap; gap:10px 18px }
+  .stats b { display:block; font-size:18px; color:var(--accent) }
+  .stats span { font-size:12px; color:#8b7c63 }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(88px,1fr)); gap:8px; margin-top:8px }
+  .p { border:1px solid var(--line); border-radius:9px; padding:7px 8px; font-size:13px; background:#fffdf7; text-align:center }
+  .p.on { border-color:var(--accent); box-shadow:inset 0 0 0 1px var(--accent) }
+  .p small { display:block; color:#8b7c63; font-size:11px }
+  .trip { font-size:13px; color:#6d6152 }
+  .hint { font-size:12px; color:#8b7c63; margin-top:10px }
+</style>
+</head>
+<body>
+<h1>旅行地图</h1>
+<div class="sub">离线版 · 数据来自本机存档（127.0.0.1:8089）</div>
+
+<div class="card">
+  <div class="stats" id="stats"><span>读取存档…</span></div>
+  <div class="trip" id="trip"></div>
+</div>
+
+<div class="card">
+  <div style="font-size:13px;color:#8b7c63;margin-bottom:6px">走过的地方</div>
+  <div class="grid" id="places"></div>
+  <div class="hint">点亮 = 至少带回一张目的地照。当前版本把"这次旅行的目的地"记在存档的 tripPlace 里。</div>
+</div>
+
+<script>
+var PROV = ["上海","云南","内蒙古","北京","台湾","吉林","四川","天津","安徽","山东","山西","广东","广西","新疆","江苏","江西","河北","河南","浙江","海南","海外","湖北","湖南","澳门","甘肃","福建","西藏","辽宁","重庆","陕西","青海","香港","黑龙江"];
+function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]}) }
+function render(st){
+  var house = (st.house||[]), photos = (st.photos||[]), notes = (st.notes||[]), stories = (st.stories||[]);
+  var furn = (st.furniture && st.furniture.has_fur) || [];
+  var items = 0; for (var i=0;i<house.length;i++) items += Number(house[i].count)||0;
+  document.getElementById('stats').innerHTML =
+    cell('三叶草', Number(st.clover)||0) + cell('抽奖券', Number(st.ticket)||0) +
+    cell('明信片', photos.length) + cell('日记', notes.length) +
+    cell('故事', stories.length) + cell('家具', furn.length) +
+    cell('物品', items) + cell('旅行次数', Number(st.travelCount)||0);
+  var place = Number(st.tripPlace)||0;
+  document.getElementById('trip').textContent = place ? ('最近一次目的地编号：' + place) : '还没有出行记录';
+  var g = '';
+  for (var p=0;p<PROV.length;p++){
+    var hasPic = place && ((p+1) === place);
+    g += '<div class="p' + (hasPic?' on':'') + '">' + esc(PROV[p]) + (hasPic?'<small>去过</small>':'') + '</div>';
+  }
+  document.getElementById('places').innerHTML = g;
+}
+function cell(k,v){ return '<div><b>'+esc(v)+'</b><span>'+esc(k)+'</span></div>' }
+function load(){
+  var x = new XMLHttpRequest();
+  x.open('GET','/load?t='+Date.now(),true);
+  x.onreadystatechange = function(){
+    if (x.readyState!==4) return;
+    try { render(JSON.parse(x.responseText)); }
+    catch(e){ document.getElementById('stats').innerHTML = '<span>读不到存档（游戏还没保存过？）</span>'; }
+  };
+  try { x.send(null); } catch(e){}
+}
+load();
+setInterval(load, 5000);
+</script>
+</body>
+</html>

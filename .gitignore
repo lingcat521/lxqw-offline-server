@@ -1,0 +1,23 @@
+# 游戏资源与安装包(不发布)
+apk/
+tables/
+screenshots/
+eab/
+build/
+*.apk
+*.apks
+*.xapk
+
+# 运行时产物
+logs/
+save/
+node_modules/
+*.out
+*.log
+__pycache__/
+*.pyc
+
+# 临时/调试
+*.tmp
+*.bak
+_*test

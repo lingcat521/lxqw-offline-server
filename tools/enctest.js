@@ -1,0 +1,10 @@
+global.window=global;
+eval(require('fs').readFileSync('/data/data/com.dsharnessmobile.shell/files/home/.dsh/workspaces/incoming/lxqw/new/rules.js','utf8'));
+var S=window.MOCK_SEMANTIC;
+var a=S['encyclopedia_load'](), b=S['encytravel_load']();
+console.log('encyclopedia : unlock='+a.unlock_list.length+' desc='+a.unlock_desc.length+' show_sub='+a.show_sub.length);
+console.log('  first desc -> '+JSON.stringify(a.unlock_desc[0]).slice(0,170));
+console.log('encytravel   : unlock='+b.unlock_list.length+' desc='+b.unlock_desc.length);
+console.log('  first desc -> '+JSON.stringify(b.unlock_desc[0]).slice(0,150));
+console.log('story_load   : '+JSON.stringify(S['story_load']()).slice(0,120));
+console.log('total semantic protocols: '+Object.keys(S).length);

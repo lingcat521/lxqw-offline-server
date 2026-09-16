@@ -1,0 +1,4472 @@
+{
+ "adsmgr_load": {
+  "tree": {
+   "coll": {
+    "_type": "auto"
+   },
+   "cfg": {
+    "_type": "auto"
+   },
+   "can_reward": {
+    "_type": "auto"
+   },
+   "page": {
+    "_type": "auto"
+   },
+   "source": {
+    "_type": "auto"
+   },
+   "phase": {
+    "_type": "auto"
+   },
+   "text": {
+    "_type": "auto"
+   },
+   "texture": {
+    "_type": "auto"
+   },
+   "times": {
+    "_type": "auto"
+   },
+   "cur_touch": {
+    "_type": "auto"
+   },
+   "buy_num": {
+    "_type": "number"
+   },
+   "actionType": {
+    "_type": "auto"
+   },
+   "img": {
+    "_type": "auto"
+   },
+   "picList": {
+    "_type": "auto"
+   },
+   "modelValue": {
+    "_type": "auto"
+   },
+   "reward": {
+    "_type": "auto"
+   },
+   "answer": {
+    "_type": "auto"
+   },
+   "total": {
+    "_type": "auto"
+   },
+   "lockList": {
+    "_type": "auto"
+   },
+   "_mtime": {
+    "_type": "auto"
+   },
+   "layers": {
+    "_type": "auto"
+   },
+   "task_num": {
+    "_type": "number"
+   },
+   "patch_num": {
+    "_type": "number"
+   },
+   "itemsGetter": {
+    "_type": "auto"
+   },
+   "page_num": {
+    "_type": "number"
+   },
+   "unlock_list": {
+    "_type": "auto"
+   },
+   "has_map": {
+    "_type": "boolean"
+   },
+   "gift_time": {
+    "_type": "number"
+   },
+   "onTap": {
+    "_type": "auto"
+   },
+   "right_flag": {
+    "_type": "number"
+   },
+   "isUsing": {
+    "_type": "auto"
+   },
+   "collections": {
+    "_type": "auto"
+   },
+   "rewardArr": {
+    "_type": "auto"
+   },
+   "share_get": {
+    "_type": "auto"
+   },
+   "unlock": {
+    "_type": "auto"
+   },
+   "museum_list": {
+    "_type": "auto"
+   },
+   "length": {
+    "_type": "auto"
+   },
+   "onSelected": {
+    "_type": "auto"
+   },
+   "show_desc": {
+    "_type": "auto"
+   },
+   "cmd": {
+    "_type": "auto"
+   },
+   "month": {
+    "_type": "auto"
+   },
+   "position": {
+    "_type": "auto"
+   },
+   "stock_num": {
+    "_type": "number"
+   },
+   "closeCallback": {
+    "_type": "auto"
+   },
+   "isLock": {
+    "_type": "auto"
+   },
+   "descList": {
+    "_type": "auto"
+   },
+   "tols": {
+    "_type": "auto"
+   },
+   "replacing": {
+    "_type": "auto"
+   },
+   "replaceKey": {
+    "_type": "auto"
+   },
+   "algin": {
+    "_type": "auto"
+   },
+   "coin": {
+    "_type": "auto"
+   },
+   "desc": {
+    "_type": "auto"
+   },
+   "hours_type": {
+    "_type": "number"
+   },
+   "next": {
+    "_type": "auto"
+   },
+   "bottom": {
+    "_type": "auto"
+   },
+   "water": {
+    "_type": "auto"
+   },
+   "new_flag": {
+    "_type": "number"
+   },
+   "selectedIndex": {
+    "_type": "auto"
+   },
+   "type": {
+    "_type": "auto"
+   },
+   "day_left": {
+    "_type": "auto"
+   },
+   "isSend": {
+    "_type": "auto"
+   },
+   "icon": {
+    "_type": "auto"
+   },
+   "canShare": {
+    "_type": "auto"
+   },
+   "task_list": {
+    "_type": "auto"
+   },
+   "share_code": {
+    "_type": "number"
+   },
+   "compass": {
+    "_type": "auto"
+   },
+   "task_harvest": {
+    "_type": "auto"
+   },
+   "info": {
+    "_type": "auto"
+   },
+   "pro": {
+    "_type": "auto"
+   },
+   "limit": {
+    "_type": "auto"
+   },
+   "pic_list": {
+    "_type": "auto"
+   },
+   "grow": {
+    "_type": "auto"
+   },
+   "reward_list": {
+    "_type": "auto"
+   },
+   "pages": {
+    "_type": "auto"
+   },
+   "get_list": {
+    "_type": "auto"
+   },
+   "season": {
+    "_type": "auto"
+   },
+   "key": {
+    "_type": "auto"
+   },
+   "isBuy": {
+    "_type": "auto"
+   },
+   "clover": {
+    "_type": "auto"
+   },
+   "_uuid": {
+    "_type": "auto"
+   },
+   "disableAlbum": {
+    "_type": "auto"
+   },
+   "paper": {
+    "_type": "auto"
+   },
+   "guest": {
+    "_type": "auto"
+   },
+   "replaceSelection": {
+    "_type": "auto"
+   },
+   "goods": {
+    "_type": "auto"
+   },
+   "onShare": {
+    "_type": "auto"
+   },
+   "image": {
+    "_type": "auto"
+   },
+   "count": {
+    "_type": "auto"
+   },
+   "callback": {
+    "_type": "auto"
+   },
+   "price": {
+    "_type": "auto"
+   },
+   "gift_get": {
+    "_type": "auto"
+   },
+   "egg_list": {
+    "_type": "auto"
+   },
+   "onSelect": {
+    "_type": "auto"
+   },
+   "render": {
+    "_type": "auto"
+   },
+   "onGet": {
+    "_type": "auto"
+   },
+   "data": {
+    "_type": "array"
+   },
+   "rewardMode": {
+    "_type": "auto"
+   },
+   "select_list": {
+    "_type": "auto"
+   },
+   "value": {
+    "_type": "auto"
+   },
+   "pos": {
+    "_type": "auto"
+   },
+   "is_done": {
+    "_type": "boolean"
+   },
+   "num": {
+    "_type": "auto"
+   },
+   "pic": {
+    "_type": "auto"
+   },
+   "colls": {
+    "_type": "auto"
+   },
+   "can_buy_num": {
+    "_type": "number"
+   },
+   "area": {
+    "_type": "auto"
+   },
+   "item_list": {
+    "_type": "array"
+   },
+   "enabled": {
+    "_type": "auto"
+   },
+   "pre_cream": {
+    "_type": "auto"
+   },
+   "otherUsing": {
+    "_type": "auto"
+   },
+   "can_pop": {
+    "_type": "auto"
+   },
+   "pictures": {
+    "_type": "auto"
+   },
+   "items": {
+    "_type": "auto"
+   },
+   "part": {
+    "_type": "auto"
+   },
+   "review": {
+    "_type": "auto"
+   },
+   "making_index": {
+    "_type": "number"
+   },
+   "shareCallback": {
+    "_type": "auto"
+   },
+   "item_num": {
+    "_type": "number"
+   },
+   "desc_id": {
+    "_type": "number"
+   },
+   "open_url": {
+    "_type": "auto"
+   },
+   "concat": {
+    "_type": "auto"
+   },
+   "id": {
+    "_type": "auto"
+   },
+   "popIndex": {
+    "_type": "auto"
+   },
+   "itemID": {
+    "_type": "auto"
+   },
+   "show_sub": {
+    "_type": "auto"
+   },
+   "onReward": {
+    "_type": "auto"
+   },
+   "share_num": {
+    "_type": "number"
+   },
+   "enable": {
+    "_type": "auto"
+   },
+   "path": {
+    "_type": "auto"
+   },
+   "state": {
+    "_type": "auto"
+   },
+   "shop_id": {
+    "_type": "number"
+   },
+   "gift_can_get": {
+    "_type": "auto"
+   },
+   "list": {
+    "_type": "array"
+   },
+   "tips": {
+    "_type": "auto"
+   },
+   "onRefresh": {
+    "_type": "auto"
+   },
+   "body": {
+    "_type": "auto"
+   },
+   "cur": {
+    "_type": "auto"
+   },
+   "touch_list": {
+    "_type": "auto"
+   },
+   "lucky_days": {
+    "_type": "auto"
+   },
+   "pic_img": {
+    "_type": "auto"
+   },
+   "onOut": {
+    "_type": "auto"
+   },
+   "onClose": {
+    "_type": "auto"
+   },
+   "inspire_time": {
+    "_type": "number"
+   },
+   "note_list": {
+    "_type": "auto"
+   },
+   "box_id": {
+    "_type": "number"
+   },
+   "theme": {
+    "_type": "auto"
+   },
+   "item_id": {
+    "_type": "number"
+   },
+   "pic_id": {
+    "_type": "number"
+   },
+   "title": {
+    "_type": "auto"
+   },
+   "onDelete": {
+    "_type": "auto"
+   },
+   "new_index": {
+    "_type": "number"
+   },
+   "card_info": {
+    "_type": "auto"
+   },
+   "folded": {
+    "_type": "auto"
+   },
+   "extra_item": {
+    "_type": "auto"
+   },
+   "sack": {
+    "_type": "auto"
+   },
+   "using": {
+    "_type": "auto"
+   },
+   "task_share": {
+    "_type": "auto"
+   },
+   "end_time": {
+    "_type": "number"
+   },
+   "canTap": {
+    "_type": "auto"
+   },
+   "bag": {
+    "_type": "auto"
+   },
+   "scale": {
+    "_type": "auto"
+   },
+   "cream": {
+    "_type": "auto"
+   },
+   "selectIndex": {
+    "_type": "auto"
+   },
+   "task_login": {
+    "_type": "auto"
+   },
+   "st_days": {
+    "_type": "auto"
+   },
+   "modelType": {
+    "_type": "auto"
+   },
+   "onShow": {
+    "_type": "auto"
+   },
+   "pre_sugar": {
+    "_type": "auto"
+   },
+   "inspire_num": {
+    "_type": "number"
+   },
+   "ticket": {
+    "_type": "auto"
+   },
+   "friendId": {
+    "_type": "auto"
+   },
+   "selected": {
+    "_type": "auto"
+   },
+   "can_banner": {
+    "_type": "auto"
+   },
+   "task_item": {
+    "_type": "auto"
+   },
+   "is_selected": {
+    "_type": "boolean"
+   },
+   "time": {
+    "_type": "auto"
+   },
+   "unlock_desc": {
+    "_type": "auto"
+   },
+   "send_list": {
+    "_type": "auto"
+   },
+   "onPut": {
+    "_type": "auto"
+   },
+   "cur_state": {
+    "_type": "auto"
+   },
+   "weather": {
+    "_type": "auto"
+   },
+   "onConfirm": {
+    "_type": "auto"
+   },
+   "replaceMode": {
+    "_type": "auto"
+   },
+   "is_share": {
+    "_type": "boolean"
+   },
+   "sugar": {
+    "_type": "auto"
+   },
+   "change": {
+    "_type": "auto"
+   },
+   "pre_coin": {
+    "_type": "number"
+   },
+   "name": {
+    "_type": "auto"
+   },
+   "wrong": {
+    "_type": "auto"
+   },
+   "field": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "album_load": {
+  "tree": {
+   "Event": {
+    "_type": "auto"
+   },
+   "start": {
+    "_type": "auto"
+   },
+   "total": {
+    "_type": "auto"
+   },
+   "pictures": {
+    "_type": "array"
+   },
+   "updateAlbum": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "album_load_all": {
+  "tree": {
+   "id_list": {
+    "_type": "array"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "updateAlbum": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "album_load_by_id_list": {
+  "tree": {
+   "updateAlbumContent": {
+    "_type": "number"
+   },
+   "Event": {
+    "_type": "number"
+   },
+   "pic_list": {
+    "_type": "number"
+   }
+  },
+  "usesReq": false
+ },
+ "album_load_new": {
+  "tree": {
+   "Event": {
+    "_type": "number"
+   },
+   "Log": {
+    "_type": "object",
+    "_children": {
+     "print": {
+      "_type": "auto"
+     }
+    }
+   },
+   "pictures": {
+    "_type": "array"
+   },
+   "has_ads": {
+    "_type": "number"
+   },
+   "updateNewAlbum": {
+    "_type": "number"
+   },
+   "is_share": {
+    "_type": "number"
+   },
+   "visted_pic": {
+    "_type": "array"
+   }
+  },
+  "usesReq": false
+ },
+ "album_load_recover": {
+  "tree": {
+   "pictures": {
+    "_type": "array"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "updateRecover": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "animpicture_load": {
+  "tree": {
+   "coll": {
+    "_type": "auto"
+   },
+   "cfg": {
+    "_type": "auto"
+   },
+   "can_reward": {
+    "_type": "auto"
+   },
+   "page": {
+    "_type": "auto"
+   },
+   "source": {
+    "_type": "auto"
+   },
+   "phase": {
+    "_type": "auto"
+   },
+   "text": {
+    "_type": "auto"
+   },
+   "texture": {
+    "_type": "auto"
+   },
+   "times": {
+    "_type": "auto"
+   },
+   "cur_touch": {
+    "_type": "auto"
+   },
+   "buy_num": {
+    "_type": "number"
+   },
+   "actionType": {
+    "_type": "auto"
+   },
+   "img": {
+    "_type": "auto"
+   },
+   "picList": {
+    "_type": "auto"
+   },
+   "modelValue": {
+    "_type": "auto"
+   },
+   "reward": {
+    "_type": "auto"
+   },
+   "answer": {
+    "_type": "auto"
+   },
+   "total": {
+    "_type": "auto"
+   },
+   "lockList": {
+    "_type": "auto"
+   },
+   "_mtime": {
+    "_type": "auto"
+   },
+   "layers": {
+    "_type": "auto"
+   },
+   "task_num": {
+    "_type": "number"
+   },
+   "patch_num": {
+    "_type": "number"
+   },
+   "itemsGetter": {
+    "_type": "auto"
+   },
+   "page_num": {
+    "_type": "number"
+   },
+   "unlock_list": {
+    "_type": "auto"
+   },
+   "has_map": {
+    "_type": "boolean"
+   },
+   "gift_time": {
+    "_type": "number"
+   },
+   "pic_list": {
+    "_type": "array",
+    "_children": {
+     "length": {
+      "_type": "auto"
+     }
+    }
+   },
+   "onTap": {
+    "_type": "auto"
+   },
+   "right_flag": {
+    "_type": "number"
+   },
+   "isUsing": {
+    "_type": "auto"
+   },
+   "collections": {
+    "_type": "auto"
+   },
+   "rewardArr": {
+    "_type": "auto"
+   },
+   "share_get": {
+    "_type": "auto"
+   },
+   "unlock": {
+    "_type": "auto"
+   },
+   "museum_list": {
+    "_type": "auto"
+   },
+   "length": {
+    "_type": "number"
+   },
+   "onSelected": {
+    "_type": "auto"
+   },
+   "show_desc": {
+    "_type": "auto"
+   },
+   "cmd": {
+    "_type": "auto"
+   },
+   "month": {
+    "_type": "auto"
+   },
+   "position": {
+    "_type": "auto"
+   },
+   "stock_num": {
+    "_type": "number"
+   },
+   "closeCallback": {
+    "_type": "auto"
+   },
+   "isLock": {
+    "_type": "auto"
+   },
+   "descList": {
+    "_type": "auto"
+   },
+   "tols": {
+    "_type": "auto"
+   },
+   "replacing": {
+    "_type": "auto"
+   },
+   "replaceKey": {
+    "_type": "auto"
+   },
+   "algin": {
+    "_type": "auto"
+   },
+   "coin": {
+    "_type": "auto"
+   },
+   "desc": {
+    "_type": "auto"
+   },
+   "hours_type": {
+    "_type": "number"
+   },
+   "next": {
+    "_type": "auto"
+   },
+   "bottom": {
+    "_type": "auto"
+   },
+   "water": {
+    "_type": "auto"
+   },
+   "new_flag": {
+    "_type": "number"
+   },
+   "selectedIndex": {
+    "_type": "auto"
+   },
+   "type": {
+    "_type": "auto"
+   },
+   "day_left": {
+    "_type": "auto"
+   },
+   "isSend": {
+    "_type": "auto"
+   },
+   "icon": {
+    "_type": "auto"
+   },
+   "canShare": {
+    "_type": "auto"
+   },
+   "task_list": {
+    "_type": "auto"
+   },
+   "share_code": {
+    "_type": "number"
+   },
+   "compass": {
+    "_type": "auto"
+   },
+   "task_harvest": {
+    "_type": "auto"
+   },
+   "info": {
+    "_type": "auto"
+   },
+   "pro": {
+    "_type": "auto"
+   },
+   "limit": {
+    "_type": "auto"
+   },
+   "grow": {
+    "_type": "auto"
+   },
+   "reward_list": {
+    "_type": "auto"
+   },
+   "pages": {
+    "_type": "auto"
+   },
+   "get_list": {
+    "_type": "auto"
+   },
+   "season": {
+    "_type": "auto"
+   },
+   "key": {
+    "_type": "auto"
+   },
+   "isBuy": {
+    "_type": "auto"
+   },
+   "clover": {
+    "_type": "auto"
+   },
+   "_uuid": {
+    "_type": "auto"
+   },
+   "disableAlbum": {
+    "_type": "auto"
+   },
+   "paper": {
+    "_type": "auto"
+   },
+   "guest": {
+    "_type": "auto"
+   },
+   "replaceSelection": {
+    "_type": "auto"
+   },
+   "goods": {
+    "_type": "auto"
+   },
+   "onShare": {
+    "_type": "auto"
+   },
+   "image": {
+    "_type": "auto"
+   },
+   "count": {
+    "_type": "auto"
+   },
+   "callback": {
+    "_type": "auto"
+   },
+   "price": {
+    "_type": "auto"
+   },
+   "gift_get": {
+    "_type": "auto"
+   },
+   "egg_list": {
+    "_type": "auto"
+   },
+   "onSelect": {
+    "_type": "auto"
+   },
+   "render": {
+    "_type": "auto"
+   },
+   "onGet": {
+    "_type": "auto"
+   },
+   "data": {
+    "_type": "auto"
+   },
+   "rewardMode": {
+    "_type": "auto"
+   },
+   "select_list": {
+    "_type": "auto"
+   },
+   "value": {
+    "_type": "auto"
+   },
+   "pos": {
+    "_type": "auto"
+   },
+   "is_done": {
+    "_type": "boolean"
+   },
+   "num": {
+    "_type": "auto"
+   },
+   "pic": {
+    "_type": "array"
+   },
+   "colls": {
+    "_type": "auto"
+   },
+   "can_buy_num": {
+    "_type": "number"
+   },
+   "area": {
+    "_type": "auto"
+   },
+   "item_list": {
+    "_type": "auto"
+   },
+   "enabled": {
+    "_type": "auto"
+   },
+   "pre_cream": {
+    "_type": "auto"
+   },
+   "otherUsing": {
+    "_type": "auto"
+   },
+   "can_pop": {
+    "_type": "auto"
+   },
+   "pictures": {
+    "_type": "array"
+   },
+   "items": {
+    "_type": "auto"
+   },
+   "part": {
+    "_type": "auto"
+   },
+   "review": {
+    "_type": "auto"
+   },
+   "making_index": {
+    "_type": "number"
+   },
+   "shareCallback": {
+    "_type": "auto"
+   },
+   "item_num": {
+    "_type": "number"
+   },
+   "desc_id": {
+    "_type": "number"
+   },
+   "open_url": {
+    "_type": "auto"
+   },
+   "concat": {
+    "_type": "auto"
+   },
+   "id": {
+    "_type": "auto"
+   },
+   "popIndex": {
+    "_type": "auto"
+   },
+   "itemID": {
+    "_type": "auto"
+   },
+   "show_sub": {
+    "_type": "auto"
+   },
+   "onReward": {
+    "_type": "auto"
+   },
+   "share_num": {
+    "_type": "number"
+   },
+   "enable": {
+    "_type": "auto"
+   },
+   "path": {
+    "_type": "auto"
+   },
+   "state": {
+    "_type": "auto"
+   },
+   "shop_id": {
+    "_type": "number"
+   },
+   "gift_can_get": {
+    "_type": "auto"
+   },
+   "list": {
+    "_type": "array"
+   },
+   "tips": {
+    "_type": "auto"
+   },
+   "onRefresh": {
+    "_type": "auto"
+   },
+   "body": {
+    "_type": "auto"
+   },
+   "cur": {
+    "_type": "auto"
+   },
+   "touch_list": {
+    "_type": "auto"
+   },
+   "lucky_days": {
+    "_type": "auto"
+   },
+   "pic_img": {
+    "_type": "auto"
+   },
+   "onOut": {
+    "_type": "auto"
+   },
+   "onClose": {
+    "_type": "auto"
+   },
+   "inspire_time": {
+    "_type": "number"
+   },
+   "note_list": {
+    "_type": "auto"
+   },
+   "box_id": {
+    "_type": "number"
+   },
+   "theme": {
+    "_type": "auto"
+   },
+   "item_id": {
+    "_type": "number"
+   },
+   "pic_id": {
+    "_type": "number"
+   },
+   "title": {
+    "_type": "auto"
+   },
+   "onDelete": {
+    "_type": "auto"
+   },
+   "new_index": {
+    "_type": "number"
+   },
+   "card_info": {
+    "_type": "auto"
+   },
+   "folded": {
+    "_type": "auto"
+   },
+   "extra_item": {
+    "_type": "auto"
+   },
+   "sack": {
+    "_type": "auto"
+   },
+   "using": {
+    "_type": "auto"
+   },
+   "task_share": {
+    "_type": "auto"
+   },
+   "end_time": {
+    "_type": "number"
+   },
+   "canTap": {
+    "_type": "auto"
+   },
+   "bag": {
+    "_type": "auto"
+   },
+   "scale": {
+    "_type": "auto"
+   },
+   "cream": {
+    "_type": "auto"
+   },
+   "selectIndex": {
+    "_type": "auto"
+   },
+   "task_login": {
+    "_type": "auto"
+   },
+   "st_days": {
+    "_type": "auto"
+   },
+   "modelType": {
+    "_type": "auto"
+   },
+   "onShow": {
+    "_type": "auto"
+   },
+   "pre_sugar": {
+    "_type": "auto"
+   },
+   "inspire_num": {
+    "_type": "number"
+   },
+   "ticket": {
+    "_type": "auto"
+   },
+   "friendId": {
+    "_type": "auto"
+   },
+   "selected": {
+    "_type": "auto"
+   },
+   "can_banner": {
+    "_type": "auto"
+   },
+   "task_item": {
+    "_type": "auto"
+   },
+   "is_selected": {
+    "_type": "boolean"
+   },
+   "time": {
+    "_type": "auto"
+   },
+   "unlock_desc": {
+    "_type": "auto"
+   },
+   "send_list": {
+    "_type": "auto"
+   },
+   "onPut": {
+    "_type": "auto"
+   },
+   "cur_state": {
+    "_type": "auto"
+   },
+   "weather": {
+    "_type": "auto"
+   },
+   "onConfirm": {
+    "_type": "auto"
+   },
+   "replaceMode": {
+    "_type": "auto"
+   },
+   "is_share": {
+    "_type": "boolean"
+   },
+   "sugar": {
+    "_type": "auto"
+   },
+   "change": {
+    "_type": "auto"
+   },
+   "pre_coin": {
+    "_type": "number"
+   },
+   "name": {
+    "_type": "auto"
+   },
+   "wrong": {
+    "_type": "auto"
+   },
+   "field": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "calendar_load": {
+  "tree": {
+   "lucky_days": {
+    "_type": "array"
+   },
+   "task_list": {
+    "_type": "array"
+   },
+   "st_days": {
+    "_type": "array"
+   },
+   "new_flag": {
+    "_type": "array"
+   }
+  },
+  "usesReq": false
+ },
+ "calendar_load_note": {
+  "tree": {
+   "list": {
+    "_type": "array"
+   }
+  },
+  "usesReq": false
+ },
+ "calendar_task_update": {
+  "tree": {
+   "task": {
+    "_type": "auto",
+    "_children": {
+     "id": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "capsule_load": {
+  "tree": {
+   "LOAD": {
+    "_type": "number"
+   },
+   "Event": {
+    "_type": "number"
+   },
+   "Time": {
+    "_type": "object",
+    "_children": {
+     "getServerTime": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "capsule_load_coin": {
+  "tree": {
+   "coin": {
+    "_type": "auto"
+   },
+   "DATA_CHANGE": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "pre_coin": {
+    "_type": "number"
+   }
+  },
+  "usesReq": false
+ },
+ "capsule_load_task": {
+  "tree": {
+   "task_list": {
+    "_type": "array"
+   },
+   "DATA_CHANGE": {
+    "_type": "number"
+   },
+   "Event": {
+    "_type": "number"
+   }
+  },
+  "usesReq": false
+ },
+ "client_hello": {
+  "tree": {
+   "pingServer": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "timestamp": {
+    "_type": "auto"
+   },
+   "Time": {
+    "_type": "object",
+    "_children": {
+     "setServerTime": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "client_load_decorate": {
+  "tree": {
+   "Event": {
+    "_type": "auto"
+   },
+   "updateDecoration": {
+    "_type": "auto"
+   },
+   "status": {
+    "_type": "auto"
+   },
+   "has_list": {
+    "_type": "array"
+   },
+   "put_id": {
+    "_type": "number"
+   }
+  },
+  "usesReq": false
+ },
+ "client_load_events": {
+  "tree": {
+   "Event": {
+    "_type": "number"
+   },
+   "Picture": {
+    "_type": "number"
+   },
+   "PartyResult": {
+    "_type": "number"
+   },
+   "BackHome": {
+    "_type": "number"
+   },
+   "evt_type": {
+    "_type": "number"
+   },
+   "updateEvents": {
+    "_type": "number"
+   }
+  },
+  "usesReq": true
+ },
+ "client_load_role": {
+  "tree": {
+   "frog": {
+    "_type": "auto",
+    "_children": {
+     "today_step": {
+      "_type": "auto"
+     },
+     "motion": {
+      "_type": "auto"
+     },
+     "achieves": {
+      "_type": "auto"
+     },
+     "cur_achieve": {
+      "_type": "auto"
+     },
+     "status": {
+      "_type": "auto"
+     },
+     "achieves_time": {
+      "_type": "auto"
+     },
+     "name": {
+      "_type": "auto"
+     },
+     "pic_show": {
+      "_type": "auto"
+     },
+     "taobao_data": {
+      "_type": "auto"
+     },
+     "icon": {
+      "_type": "auto"
+     },
+     "decoration": {
+      "_type": "auto"
+     }
+    }
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "loadRole": {
+    "_type": "auto"
+   },
+   "Log": {
+    "_type": "object",
+    "_children": {
+     "warning": {
+      "_type": "auto"
+     }
+    }
+   },
+   "settings": {
+    "_type": "auto",
+    "_children": {
+     "rank_switch": {
+      "_type": "auto"
+     },
+     "push_switch": {
+      "_type": "auto"
+     },
+     "client": {
+      "_type": "auto"
+     }
+    }
+   },
+   "res": {
+    "_type": "auto",
+    "_children": {
+     "clover_point": {
+      "_type": "auto"
+     },
+     "ticket": {
+      "_type": "auto"
+     }
+    }
+   },
+   "SocketManage": {
+    "_type": "object",
+    "_children": {
+     "getInstance": {
+      "_type": "auto"
+     }
+    }
+   },
+   "misc": {
+    "_type": "auto",
+    "_children": {
+     "wx_push_reward": {
+      "_type": "auto"
+     },
+     "wx_my_reward": {
+      "_type": "auto"
+     },
+     "create_time": {
+      "_type": "auto"
+     },
+     "picture_cnt": {
+      "_type": "auto"
+     }
+    }
+   },
+   "Action2": {
+    "_type": "auto"
+   },
+   "String": {
+    "_type": "object",
+    "_children": {
+     "isNullOrEmpty": {
+      "_type": "auto"
+     }
+    }
+   },
+   "updateRankSwitch": {
+    "_type": "auto"
+   },
+   "code": {
+    "_type": "number"
+   },
+   "WXgame": {
+    "_type": "number"
+   },
+   "updateClover": {
+    "_type": "auto"
+   },
+   "uid": {
+    "_type": "auto"
+   },
+   "added": {
+    "_type": "auto"
+   },
+   "updateTicket": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "clover_load_clovers": {
+  "tree": {
+   "Log": {
+    "_type": "object",
+    "_children": {
+     "warning": {
+      "_type": "auto"
+     }
+    }
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "updateCloverGrow": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "clover_notice_get": {
+  "tree": {
+   "ViewLayerType": {
+    "_type": "object",
+    "_children": {
+     "WindowLayer": {
+      "_type": "auto"
+     }
+    }
+   },
+   "reason": {
+    "_type": "number"
+   },
+   "view": {
+    "_type": "object",
+    "_children": {
+     "updateView": {
+      "_type": "auto"
+     }
+    }
+   },
+   "clover": {
+    "_type": "auto"
+   },
+   "PageManage": {
+    "_type": "object",
+    "_children": {
+     "getInstance": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "clover_update": {
+  "tree": {
+   "clover": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "cooking_load_cooking": {
+  "tree": {
+   "task_list": {
+    "_type": "array"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "UPDATE_LIST": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "encyclopedia_load": {
+  "tree": {
+   "unlock_list": {
+    "_type": "auto",
+    "_children": {
+     "sort": {
+      "_type": "auto"
+     }
+    }
+   },
+   "show_sub": {
+    "_type": "auto",
+    "_children": {
+     "length": {
+      "_type": "auto"
+     }
+    }
+   },
+   "unlock_desc": {
+    "_type": "auto",
+    "_children": {
+     "length": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "encytravel_load": {
+  "tree": {
+   "unlock_list": {
+    "_type": "auto",
+    "_children": {
+     "sort": {
+      "_type": "auto"
+     }
+    }
+   },
+   "show_sub": {
+    "_type": "auto",
+    "_children": {
+     "length": {
+      "_type": "auto"
+     }
+    }
+   },
+   "unlock_desc": {
+    "_type": "auto",
+    "_children": {
+     "length": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "furniture_load_compost": {
+  "tree": {
+   "UPDATE_TUMBER": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "compost_list": {
+    "_type": "array"
+   },
+   "box_list": {
+    "_type": "array"
+   }
+  },
+  "usesReq": false
+ },
+ "furniture_load_furniture": {
+  "tree": {
+   "task_list": {
+    "_type": "auto"
+   },
+   "has_fur": {
+    "_type": "boolean"
+   },
+   "select": {
+    "_type": "auto"
+   },
+   "shop": {
+    "_type": "array",
+    "_children": {
+     "start_time": {
+      "_type": "auto"
+     },
+     "shop_list": {
+      "_type": "auto"
+     },
+     "leave_time": {
+      "_type": "auto"
+     }
+    }
+   },
+   "bench_lock": {
+    "_type": "auto"
+   },
+   "week": {
+    "_type": "auto"
+   },
+   "bench": {
+    "_type": "auto"
+   },
+   "DisplayManage": {
+    "_type": "object",
+    "_children": {
+     "getInstance": {
+      "_type": "auto"
+     }
+    }
+   },
+   "mate_list": {
+    "_type": "auto"
+   },
+   "UPDATE": {
+    "_type": "auto"
+   },
+   "ViewLayerType": {
+    "_type": "object",
+    "_children": {
+     "WindowLayer": {
+      "_type": "auto"
+     }
+    }
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "replace_fur": {
+    "_type": "array"
+   },
+   "Time": {
+    "_type": "object",
+    "_children": {
+     "getServerTime": {
+      "_type": "auto"
+     }
+    }
+   },
+   "refresh_time": {
+    "_type": "number"
+   },
+   "put_fur": {
+    "_type": "auto"
+   },
+   "month": {
+    "_type": "auto"
+   },
+   "PageManage": {
+    "_type": "object",
+    "_children": {
+     "getInstance": {
+      "_type": "auto"
+     }
+    }
+   },
+   "month_pro": {
+    "_type": "auto"
+   },
+   "complete": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "furniture_load_pocket": {
+  "tree": {
+   "clover": {
+    "_type": "auto"
+   },
+   "list": {
+    "_type": "array"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "UPDATE_POCKET": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "furniture_load_tumbler": {
+  "tree": {
+   "Event": {
+    "_type": "auto"
+   },
+   "UPDATE_TUMBER": {
+    "_type": "auto"
+   },
+   "tumbler_list": {
+    "_type": "array"
+   }
+  },
+  "usesReq": false
+ },
+ "furniture_putin_bench": {
+  "tree": {
+   "UPDATE_BENCH": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "furniture_takeout_bench": {
+  "tree": {
+   "UPDATE_BENCH": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "greetcard_get_task_item": {
+  "tree": {
+   "ViewLayerType": {
+    "_type": "object",
+    "_children": {
+     "WindowLayer": {
+      "_type": "auto"
+     }
+    }
+   },
+   "list": {
+    "_type": "number",
+    "_children": {
+     "length": {
+      "_type": "auto"
+     }
+    }
+   },
+   "PageManage": {
+    "_type": "object",
+    "_children": {
+     "getInstance": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "greetcard_load": {
+  "tree": {
+   "Event": {
+    "_type": "auto"
+   },
+   "LOAD": {
+    "_type": "auto"
+   },
+   "Time": {
+    "_type": "object",
+    "_children": {
+     "getServerTime": {
+      "_type": "auto"
+     }
+    }
+   },
+   "card_info": {
+    "_type": "auto"
+   },
+   "CARD_CHANGE": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "guest_accept_invit": {
+  "tree": {
+   "code": {
+    "_type": "number"
+   }
+  },
+  "usesReq": false
+ },
+ "guest_load_drawing": {
+  "tree": {
+   "coll": {
+    "_type": "auto"
+   },
+   "cfg": {
+    "_type": "auto"
+   },
+   "can_reward": {
+    "_type": "auto"
+   },
+   "page": {
+    "_type": "auto"
+   },
+   "source": {
+    "_type": "auto"
+   },
+   "phase": {
+    "_type": "auto"
+   },
+   "text": {
+    "_type": "auto"
+   },
+   "texture": {
+    "_type": "auto"
+   },
+   "times": {
+    "_type": "auto"
+   },
+   "cur_touch": {
+    "_type": "auto"
+   },
+   "buy_num": {
+    "_type": "number"
+   },
+   "actionType": {
+    "_type": "auto"
+   },
+   "img": {
+    "_type": "auto"
+   },
+   "picList": {
+    "_type": "auto"
+   },
+   "modelValue": {
+    "_type": "auto"
+   },
+   "reward": {
+    "_type": "auto"
+   },
+   "answer": {
+    "_type": "auto"
+   },
+   "total": {
+    "_type": "auto"
+   },
+   "lockList": {
+    "_type": "auto"
+   },
+   "_mtime": {
+    "_type": "auto"
+   },
+   "layers": {
+    "_type": "auto"
+   },
+   "task_num": {
+    "_type": "number"
+   },
+   "patch_num": {
+    "_type": "number"
+   },
+   "UPDATE": {
+    "_type": "auto"
+   },
+   "itemsGetter": {
+    "_type": "auto"
+   },
+   "page_num": {
+    "_type": "number"
+   },
+   "unlock_list": {
+    "_type": "auto"
+   },
+   "has_map": {
+    "_type": "boolean"
+   },
+   "gift_time": {
+    "_type": "number"
+   },
+   "onTap": {
+    "_type": "auto"
+   },
+   "right_flag": {
+    "_type": "number"
+   },
+   "isUsing": {
+    "_type": "auto"
+   },
+   "collections": {
+    "_type": "auto"
+   },
+   "rewardArr": {
+    "_type": "auto"
+   },
+   "share_get": {
+    "_type": "auto"
+   },
+   "unlock": {
+    "_type": "auto"
+   },
+   "museum_list": {
+    "_type": "auto"
+   },
+   "length": {
+    "_type": "auto"
+   },
+   "onSelected": {
+    "_type": "auto"
+   },
+   "show_desc": {
+    "_type": "auto"
+   },
+   "cmd": {
+    "_type": "auto"
+   },
+   "month": {
+    "_type": "auto"
+   },
+   "position": {
+    "_type": "auto"
+   },
+   "stock_num": {
+    "_type": "number"
+   },
+   "closeCallback": {
+    "_type": "auto"
+   },
+   "isLock": {
+    "_type": "auto"
+   },
+   "descList": {
+    "_type": "auto"
+   },
+   "tols": {
+    "_type": "auto"
+   },
+   "replacing": {
+    "_type": "auto"
+   },
+   "replaceKey": {
+    "_type": "auto"
+   },
+   "algin": {
+    "_type": "auto"
+   },
+   "coin": {
+    "_type": "auto"
+   },
+   "desc": {
+    "_type": "auto"
+   },
+   "hours_type": {
+    "_type": "number"
+   },
+   "next": {
+    "_type": "auto"
+   },
+   "bottom": {
+    "_type": "auto"
+   },
+   "water": {
+    "_type": "auto"
+   },
+   "new_flag": {
+    "_type": "number"
+   },
+   "selectedIndex": {
+    "_type": "auto"
+   },
+   "type": {
+    "_type": "auto"
+   },
+   "day_left": {
+    "_type": "auto"
+   },
+   "isSend": {
+    "_type": "auto"
+   },
+   "icon": {
+    "_type": "auto"
+   },
+   "canShare": {
+    "_type": "auto"
+   },
+   "task_list": {
+    "_type": "auto"
+   },
+   "share_code": {
+    "_type": "number"
+   },
+   "compass": {
+    "_type": "auto"
+   },
+   "task_harvest": {
+    "_type": "auto"
+   },
+   "info": {
+    "_type": "auto"
+   },
+   "pro": {
+    "_type": "auto"
+   },
+   "limit": {
+    "_type": "auto"
+   },
+   "pic_list": {
+    "_type": "auto"
+   },
+   "grow": {
+    "_type": "auto"
+   },
+   "reward_list": {
+    "_type": "auto"
+   },
+   "pages": {
+    "_type": "array"
+   },
+   "get_list": {
+    "_type": "auto"
+   },
+   "season": {
+    "_type": "auto"
+   },
+   "key": {
+    "_type": "auto"
+   },
+   "isBuy": {
+    "_type": "auto"
+   },
+   "clover": {
+    "_type": "auto"
+   },
+   "_uuid": {
+    "_type": "auto"
+   },
+   "disableAlbum": {
+    "_type": "auto"
+   },
+   "paper": {
+    "_type": "auto"
+   },
+   "guest": {
+    "_type": "auto"
+   },
+   "replaceSelection": {
+    "_type": "auto"
+   },
+   "goods": {
+    "_type": "auto"
+   },
+   "onShare": {
+    "_type": "auto"
+   },
+   "image": {
+    "_type": "auto"
+   },
+   "count": {
+    "_type": "auto"
+   },
+   "callback": {
+    "_type": "auto"
+   },
+   "price": {
+    "_type": "auto"
+   },
+   "gift_get": {
+    "_type": "auto"
+   },
+   "egg_list": {
+    "_type": "auto"
+   },
+   "onSelect": {
+    "_type": "auto"
+   },
+   "render": {
+    "_type": "auto"
+   },
+   "onGet": {
+    "_type": "auto"
+   },
+   "data": {
+    "_type": "auto"
+   },
+   "rewardMode": {
+    "_type": "auto"
+   },
+   "select_list": {
+    "_type": "auto"
+   },
+   "value": {
+    "_type": "auto"
+   },
+   "pos": {
+    "_type": "auto"
+   },
+   "is_done": {
+    "_type": "boolean"
+   },
+   "num": {
+    "_type": "auto"
+   },
+   "pic": {
+    "_type": "auto"
+   },
+   "colls": {
+    "_type": "array"
+   },
+   "can_buy_num": {
+    "_type": "number"
+   },
+   "area": {
+    "_type": "auto"
+   },
+   "item_list": {
+    "_type": "auto"
+   },
+   "enabled": {
+    "_type": "auto"
+   },
+   "pre_cream": {
+    "_type": "auto"
+   },
+   "otherUsing": {
+    "_type": "auto"
+   },
+   "can_pop": {
+    "_type": "auto"
+   },
+   "pictures": {
+    "_type": "auto"
+   },
+   "items": {
+    "_type": "auto"
+   },
+   "part": {
+    "_type": "auto"
+   },
+   "review": {
+    "_type": "auto"
+   },
+   "making_index": {
+    "_type": "number"
+   },
+   "shareCallback": {
+    "_type": "auto"
+   },
+   "item_num": {
+    "_type": "number"
+   },
+   "desc_id": {
+    "_type": "number"
+   },
+   "open_url": {
+    "_type": "auto"
+   },
+   "concat": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "id": {
+    "_type": "auto"
+   },
+   "popIndex": {
+    "_type": "auto"
+   },
+   "itemID": {
+    "_type": "auto"
+   },
+   "show_sub": {
+    "_type": "auto"
+   },
+   "onReward": {
+    "_type": "auto"
+   },
+   "share_num": {
+    "_type": "number"
+   },
+   "enable": {
+    "_type": "auto"
+   },
+   "path": {
+    "_type": "auto"
+   },
+   "state": {
+    "_type": "auto"
+   },
+   "shop_id": {
+    "_type": "number"
+   },
+   "gift_can_get": {
+    "_type": "auto"
+   },
+   "list": {
+    "_type": "auto"
+   },
+   "tips": {
+    "_type": "auto"
+   },
+   "onRefresh": {
+    "_type": "auto"
+   },
+   "body": {
+    "_type": "auto"
+   },
+   "cur": {
+    "_type": "auto"
+   },
+   "touch_list": {
+    "_type": "auto"
+   },
+   "lucky_days": {
+    "_type": "auto"
+   },
+   "pic_img": {
+    "_type": "auto"
+   },
+   "onOut": {
+    "_type": "auto"
+   },
+   "onClose": {
+    "_type": "auto"
+   },
+   "inspire_time": {
+    "_type": "number"
+   },
+   "note_list": {
+    "_type": "auto"
+   },
+   "box_id": {
+    "_type": "number"
+   },
+   "theme": {
+    "_type": "auto"
+   },
+   "item_id": {
+    "_type": "number"
+   },
+   "pic_id": {
+    "_type": "number"
+   },
+   "title": {
+    "_type": "auto"
+   },
+   "onDelete": {
+    "_type": "auto"
+   },
+   "new_index": {
+    "_type": "number"
+   },
+   "card_info": {
+    "_type": "auto"
+   },
+   "folded": {
+    "_type": "auto"
+   },
+   "extra_item": {
+    "_type": "auto"
+   },
+   "sack": {
+    "_type": "auto"
+   },
+   "using": {
+    "_type": "auto"
+   },
+   "task_share": {
+    "_type": "auto"
+   },
+   "end_time": {
+    "_type": "number"
+   },
+   "canTap": {
+    "_type": "auto"
+   },
+   "bag": {
+    "_type": "auto"
+   },
+   "scale": {
+    "_type": "auto"
+   },
+   "cream": {
+    "_type": "auto"
+   },
+   "selectIndex": {
+    "_type": "auto"
+   },
+   "task_login": {
+    "_type": "auto"
+   },
+   "st_days": {
+    "_type": "auto"
+   },
+   "modelType": {
+    "_type": "auto"
+   },
+   "onShow": {
+    "_type": "auto"
+   },
+   "pre_sugar": {
+    "_type": "auto"
+   },
+   "inspire_num": {
+    "_type": "number"
+   },
+   "ticket": {
+    "_type": "auto"
+   },
+   "friendId": {
+    "_type": "auto"
+   },
+   "selected": {
+    "_type": "auto"
+   },
+   "can_banner": {
+    "_type": "auto"
+   },
+   "task_item": {
+    "_type": "auto"
+   },
+   "is_selected": {
+    "_type": "boolean"
+   },
+   "time": {
+    "_type": "auto"
+   },
+   "unlock_desc": {
+    "_type": "auto"
+   },
+   "send_list": {
+    "_type": "auto"
+   },
+   "onPut": {
+    "_type": "auto"
+   },
+   "cur_state": {
+    "_type": "auto"
+   },
+   "weather": {
+    "_type": "auto"
+   },
+   "onConfirm": {
+    "_type": "auto"
+   },
+   "replaceMode": {
+    "_type": "auto"
+   },
+   "is_share": {
+    "_type": "boolean"
+   },
+   "sugar": {
+    "_type": "auto"
+   },
+   "change": {
+    "_type": "auto"
+   },
+   "pre_coin": {
+    "_type": "number"
+   },
+   "name": {
+    "_type": "auto"
+   },
+   "wrong": {
+    "_type": "auto"
+   },
+   "field": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "guest_putin_bag": {
+  "tree": {
+   "code": {
+    "_type": "number"
+   }
+  },
+  "usesReq": false
+ },
+ "guest_takeout_bag": {
+  "tree": {
+   "code": {
+    "_type": "number"
+   }
+  },
+  "usesReq": false
+ },
+ "hall_enter_game": {
+  "tree": {
+   "Log": {
+    "_type": "object",
+    "_children": {
+     "warning": {
+      "_type": "auto"
+     }
+    }
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "enterGame": {
+    "_type": "auto"
+   },
+   "code": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "hall_gen_token": {
+  "tree": {
+   "getToken": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "token": {
+    "_type": "auto"
+   },
+   "code": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "hall_login": {
+  "tree": {
+   "Event": {
+    "_type": "auto"
+   },
+   "loginComplete": {
+    "_type": "auto"
+   },
+   "String": {
+    "_type": "object",
+    "_children": {
+     "setCookiePrefix": {
+      "_type": "auto"
+     }
+    }
+   },
+   "account": {
+    "_type": "auto"
+   },
+   "code": {
+    "_type": "auto"
+   },
+   "Log": {
+    "_type": "object",
+    "_children": {
+     "warning": {
+      "_type": "auto"
+     }
+    }
+   },
+   "loginFailure": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "hall_reconnect": {
+  "tree": {
+   "Event": {
+    "_type": "auto"
+   },
+   "loginComplete": {
+    "_type": "auto"
+   },
+   "String": {
+    "_type": "object",
+    "_children": {
+     "setCookiePrefix": {
+      "_type": "auto"
+     }
+    }
+   },
+   "account": {
+    "_type": "auto"
+   },
+   "code": {
+    "_type": "auto"
+   },
+   "Log": {
+    "_type": "object",
+    "_children": {
+     "warning": {
+      "_type": "auto"
+     }
+    }
+   },
+   "loginFailure": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "item_buy": {
+  "tree": {
+   "Event": {
+    "_type": "number"
+   },
+   "ticket": {
+    "_type": "number"
+   },
+   "share_id": {
+    "_type": "array",
+    "_children": {
+     "length": {
+      "_type": "auto"
+     }
+    }
+   },
+   "getTicket": {
+    "_type": "number"
+   },
+   "ads_id": {
+    "_type": "array",
+    "_children": {
+     "length": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "item_gacha": {
+  "tree": {
+   "Event": {
+    "_type": "auto"
+   },
+   "ticket": {
+    "_type": "auto"
+   },
+   "updateGachaColorBall": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "item_load_handbook": {
+  "tree": {
+   "Event": {
+    "_type": "auto"
+   },
+   "specialtys": {
+    "_type": "array"
+   },
+   "collections": {
+    "_type": "array"
+   },
+   "updateHandbookList": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "item_load_items": {
+  "tree": {
+   "Event": {
+    "_type": "auto"
+   },
+   "house": {
+    "_type": "auto",
+    "_children": {
+     "length": {
+      "_type": "auto"
+     }
+    }
+   },
+   "ModelManage": {
+    "_type": "object",
+    "_children": {
+     "getInstance": {
+      "_type": "auto"
+     }
+    }
+   },
+   "gacha": {
+    "_type": "auto",
+    "_children": {
+     "color_ball": {
+      "_type": "auto"
+     }
+    }
+   },
+   "desk": {
+    "_type": "auto"
+   },
+   "Log": {
+    "_type": "object",
+    "_children": {
+     "warning": {
+      "_type": "auto"
+     }
+    }
+   },
+   "bag_completed": {
+    "_type": "auto"
+   },
+   "bag": {
+    "_type": "auto"
+   },
+   "bag_conflict": {
+    "_type": "auto"
+   },
+   "updateAllItemInfo": {
+    "_type": "auto"
+   },
+   "desk_conflict": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "item_load_select_gift": {
+  "tree": {
+   "list": {
+    "_type": "array"
+   },
+   "PageManage": {
+    "_type": "object",
+    "_children": {
+     "getInstance": {
+      "_type": "auto"
+     }
+    }
+   },
+   "ViewLayerType": {
+    "_type": "object",
+    "_children": {
+     "SceneLayer": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "item_load_shop_info": {
+  "tree": {
+   "log": {
+    "_type": "auto"
+   },
+   "purchased": {
+    "_type": "array"
+   }
+  },
+  "usesReq": false
+ },
+ "item_update": {
+  "tree": {
+   "item": {
+    "_type": "object",
+    "_children": {
+     "count": {
+      "_type": "auto"
+     },
+     "item_id": {
+      "_type": "auto"
+     }
+    }
+   },
+   "ModelManage": {
+    "_type": "object",
+    "_children": {
+     "getInstance": {
+      "_type": "auto"
+     }
+    }
+   },
+   "ViewLayerType": {
+    "_type": "object",
+    "_children": {
+     "NoticeLayer": {
+      "_type": "auto"
+     }
+    }
+   },
+   "ItemType": {
+    "_type": "object",
+    "_children": {
+     "COMPOSE": {
+      "_type": "auto"
+     }
+    }
+   },
+   "PageManage": {
+    "_type": "object",
+    "_children": {
+     "getInstance": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "item_update_ticket": {
+  "tree": {
+   "ticket": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "lottery_load": {
+  "tree": {
+   "coll": {
+    "_type": "auto"
+   },
+   "cfg": {
+    "_type": "auto"
+   },
+   "can_reward": {
+    "_type": "auto"
+   },
+   "page": {
+    "_type": "auto"
+   },
+   "source": {
+    "_type": "auto"
+   },
+   "phase": {
+    "_type": "auto"
+   },
+   "text": {
+    "_type": "auto"
+   },
+   "texture": {
+    "_type": "auto"
+   },
+   "times": {
+    "_type": "auto"
+   },
+   "cur_touch": {
+    "_type": "auto"
+   },
+   "buy_num": {
+    "_type": "number"
+   },
+   "actionType": {
+    "_type": "auto"
+   },
+   "img": {
+    "_type": "auto"
+   },
+   "picList": {
+    "_type": "auto"
+   },
+   "modelValue": {
+    "_type": "auto"
+   },
+   "reward": {
+    "_type": "array"
+   },
+   "answer": {
+    "_type": "array"
+   },
+   "total": {
+    "_type": "auto"
+   },
+   "lockList": {
+    "_type": "auto"
+   },
+   "_mtime": {
+    "_type": "auto"
+   },
+   "layers": {
+    "_type": "auto"
+   },
+   "task_num": {
+    "_type": "number"
+   },
+   "patch_num": {
+    "_type": "number"
+   },
+   "itemsGetter": {
+    "_type": "auto"
+   },
+   "page_num": {
+    "_type": "number"
+   },
+   "unlock_list": {
+    "_type": "auto"
+   },
+   "has_map": {
+    "_type": "boolean"
+   },
+   "gift_time": {
+    "_type": "number"
+   },
+   "onTap": {
+    "_type": "auto"
+   },
+   "right_flag": {
+    "_type": "array"
+   },
+   "isUsing": {
+    "_type": "auto"
+   },
+   "collections": {
+    "_type": "auto"
+   },
+   "rewardArr": {
+    "_type": "auto"
+   },
+   "share_get": {
+    "_type": "auto"
+   },
+   "unlock": {
+    "_type": "auto"
+   },
+   "museum_list": {
+    "_type": "auto"
+   },
+   "length": {
+    "_type": "auto"
+   },
+   "onSelected": {
+    "_type": "auto"
+   },
+   "show_desc": {
+    "_type": "auto"
+   },
+   "cmd": {
+    "_type": "auto"
+   },
+   "month": {
+    "_type": "auto"
+   },
+   "position": {
+    "_type": "auto"
+   },
+   "stock_num": {
+    "_type": "number"
+   },
+   "closeCallback": {
+    "_type": "auto"
+   },
+   "isLock": {
+    "_type": "auto"
+   },
+   "descList": {
+    "_type": "auto"
+   },
+   "tols": {
+    "_type": "auto"
+   },
+   "replacing": {
+    "_type": "auto"
+   },
+   "replaceKey": {
+    "_type": "auto"
+   },
+   "algin": {
+    "_type": "auto"
+   },
+   "coin": {
+    "_type": "auto"
+   },
+   "desc": {
+    "_type": "auto"
+   },
+   "hours_type": {
+    "_type": "number"
+   },
+   "next": {
+    "_type": "auto"
+   },
+   "bottom": {
+    "_type": "auto"
+   },
+   "water": {
+    "_type": "auto"
+   },
+   "new_flag": {
+    "_type": "number"
+   },
+   "selectedIndex": {
+    "_type": "auto"
+   },
+   "type": {
+    "_type": "auto"
+   },
+   "day_left": {
+    "_type": "auto"
+   },
+   "isSend": {
+    "_type": "auto"
+   },
+   "icon": {
+    "_type": "auto"
+   },
+   "canShare": {
+    "_type": "auto"
+   },
+   "task_list": {
+    "_type": "auto"
+   },
+   "share_code": {
+    "_type": "number"
+   },
+   "compass": {
+    "_type": "auto"
+   },
+   "task_harvest": {
+    "_type": "auto"
+   },
+   "info": {
+    "_type": "auto"
+   },
+   "pro": {
+    "_type": "auto"
+   },
+   "limit": {
+    "_type": "auto"
+   },
+   "pic_list": {
+    "_type": "auto"
+   },
+   "grow": {
+    "_type": "auto"
+   },
+   "reward_list": {
+    "_type": "auto"
+   },
+   "pages": {
+    "_type": "auto"
+   },
+   "get_list": {
+    "_type": "auto"
+   },
+   "season": {
+    "_type": "auto"
+   },
+   "key": {
+    "_type": "auto"
+   },
+   "isBuy": {
+    "_type": "auto"
+   },
+   "clover": {
+    "_type": "auto"
+   },
+   "_uuid": {
+    "_type": "auto"
+   },
+   "disableAlbum": {
+    "_type": "auto"
+   },
+   "paper": {
+    "_type": "auto"
+   },
+   "guest": {
+    "_type": "auto"
+   },
+   "replaceSelection": {
+    "_type": "auto"
+   },
+   "goods": {
+    "_type": "auto"
+   },
+   "onShare": {
+    "_type": "auto"
+   },
+   "image": {
+    "_type": "auto"
+   },
+   "count": {
+    "_type": "auto"
+   },
+   "callback": {
+    "_type": "auto"
+   },
+   "price": {
+    "_type": "auto"
+   },
+   "gift_get": {
+    "_type": "auto"
+   },
+   "egg_list": {
+    "_type": "auto"
+   },
+   "onSelect": {
+    "_type": "auto"
+   },
+   "render": {
+    "_type": "auto"
+   },
+   "onGet": {
+    "_type": "auto"
+   },
+   "data": {
+    "_type": "array"
+   },
+   "rewardMode": {
+    "_type": "auto"
+   },
+   "select_list": {
+    "_type": "array"
+   },
+   "value": {
+    "_type": "auto"
+   },
+   "pos": {
+    "_type": "auto"
+   },
+   "is_done": {
+    "_type": "boolean"
+   },
+   "num": {
+    "_type": "auto"
+   },
+   "pic": {
+    "_type": "auto"
+   },
+   "colls": {
+    "_type": "auto"
+   },
+   "can_buy_num": {
+    "_type": "number"
+   },
+   "area": {
+    "_type": "auto"
+   },
+   "item_list": {
+    "_type": "auto"
+   },
+   "enabled": {
+    "_type": "auto"
+   },
+   "pre_cream": {
+    "_type": "auto"
+   },
+   "otherUsing": {
+    "_type": "auto"
+   },
+   "can_pop": {
+    "_type": "auto"
+   },
+   "pictures": {
+    "_type": "auto"
+   },
+   "items": {
+    "_type": "auto"
+   },
+   "part": {
+    "_type": "auto"
+   },
+   "review": {
+    "_type": "auto"
+   },
+   "making_index": {
+    "_type": "number"
+   },
+   "shareCallback": {
+    "_type": "auto"
+   },
+   "item_num": {
+    "_type": "number"
+   },
+   "desc_id": {
+    "_type": "number"
+   },
+   "open_url": {
+    "_type": "auto"
+   },
+   "concat": {
+    "_type": "auto"
+   },
+   "id": {
+    "_type": "auto"
+   },
+   "popIndex": {
+    "_type": "auto"
+   },
+   "itemID": {
+    "_type": "auto"
+   },
+   "show_sub": {
+    "_type": "auto"
+   },
+   "onReward": {
+    "_type": "auto"
+   },
+   "share_num": {
+    "_type": "number"
+   },
+   "enable": {
+    "_type": "auto"
+   },
+   "path": {
+    "_type": "auto"
+   },
+   "state": {
+    "_type": "auto"
+   },
+   "shop_id": {
+    "_type": "number"
+   },
+   "gift_can_get": {
+    "_type": "auto"
+   },
+   "list": {
+    "_type": "array"
+   },
+   "tips": {
+    "_type": "auto"
+   },
+   "onRefresh": {
+    "_type": "auto"
+   },
+   "body": {
+    "_type": "auto"
+   },
+   "cur": {
+    "_type": "auto"
+   },
+   "touch_list": {
+    "_type": "auto"
+   },
+   "lucky_days": {
+    "_type": "auto"
+   },
+   "pic_img": {
+    "_type": "auto"
+   },
+   "onOut": {
+    "_type": "auto"
+   },
+   "onClose": {
+    "_type": "auto"
+   },
+   "inspire_time": {
+    "_type": "number"
+   },
+   "note_list": {
+    "_type": "auto"
+   },
+   "box_id": {
+    "_type": "number"
+   },
+   "theme": {
+    "_type": "auto"
+   },
+   "item_id": {
+    "_type": "number"
+   },
+   "pic_id": {
+    "_type": "number"
+   },
+   "title": {
+    "_type": "auto"
+   },
+   "onDelete": {
+    "_type": "auto"
+   },
+   "new_index": {
+    "_type": "number"
+   },
+   "card_info": {
+    "_type": "auto"
+   },
+   "folded": {
+    "_type": "auto"
+   },
+   "extra_item": {
+    "_type": "auto"
+   },
+   "sack": {
+    "_type": "auto"
+   },
+   "using": {
+    "_type": "auto"
+   },
+   "task_share": {
+    "_type": "auto"
+   },
+   "end_time": {
+    "_type": "number"
+   },
+   "canTap": {
+    "_type": "auto"
+   },
+   "bag": {
+    "_type": "auto"
+   },
+   "scale": {
+    "_type": "auto"
+   },
+   "cream": {
+    "_type": "auto"
+   },
+   "selectIndex": {
+    "_type": "auto"
+   },
+   "task_login": {
+    "_type": "auto"
+   },
+   "st_days": {
+    "_type": "auto"
+   },
+   "modelType": {
+    "_type": "auto"
+   },
+   "onShow": {
+    "_type": "auto"
+   },
+   "pre_sugar": {
+    "_type": "auto"
+   },
+   "inspire_num": {
+    "_type": "number"
+   },
+   "ticket": {
+    "_type": "auto"
+   },
+   "friendId": {
+    "_type": "auto"
+   },
+   "selected": {
+    "_type": "auto"
+   },
+   "can_banner": {
+    "_type": "auto"
+   },
+   "task_item": {
+    "_type": "auto"
+   },
+   "is_selected": {
+    "_type": "boolean"
+   },
+   "time": {
+    "_type": "auto"
+   },
+   "unlock_desc": {
+    "_type": "auto"
+   },
+   "send_list": {
+    "_type": "auto"
+   },
+   "onPut": {
+    "_type": "auto"
+   },
+   "cur_state": {
+    "_type": "auto"
+   },
+   "weather": {
+    "_type": "auto"
+   },
+   "onConfirm": {
+    "_type": "auto"
+   },
+   "replaceMode": {
+    "_type": "auto"
+   },
+   "is_share": {
+    "_type": "boolean"
+   },
+   "sugar": {
+    "_type": "auto"
+   },
+   "change": {
+    "_type": "auto"
+   },
+   "pre_coin": {
+    "_type": "number"
+   },
+   "name": {
+    "_type": "auto"
+   },
+   "wrong": {
+    "_type": "auto"
+   },
+   "field": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "mail_load_mails": {
+  "tree": {
+   "start": {
+    "_type": "auto"
+   },
+   "mails": {
+    "_type": "array",
+    "_children": {
+     "length": {
+      "_type": "auto"
+     }
+    }
+   },
+   "total": {
+    "_type": "number"
+   },
+   "SocketManage": {
+    "_type": "object",
+    "_children": {
+     "getInstance": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": true
+ },
+ "misc_moment_load": {
+  "tree": {
+   "list": {
+    "_type": "array"
+   }
+  },
+  "usesReq": false
+ },
+ "museum_load": {
+  "tree": {
+   "museum_list": {
+    "_type": "auto"
+   },
+   "UPDATE": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "museumday_info": {
+  "tree": {
+   "COMPASS": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "compass": {
+    "_type": "auto"
+   },
+   "task_num": {
+    "_type": "number"
+   }
+  },
+  "usesReq": false
+ },
+ "museumday_load": {
+  "tree": {
+   "LOAD": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "Time": {
+    "_type": "object",
+    "_children": {
+     "getServerTime": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "partycake_load": {
+  "tree": {
+   "pre_sugar": {
+    "_type": "auto"
+   },
+   "sugar": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "end_time": {
+    "_type": "number"
+   },
+   "task_list": {
+    "_type": "array"
+   },
+   "PartyCakeState": {
+    "_type": "object",
+    "_children": {
+     "qa_reward": {
+      "_type": "auto"
+     },
+     "qa": {
+      "_type": "auto"
+     }
+    }
+   },
+   "pre_cream": {
+    "_type": "auto"
+   },
+   "cream": {
+    "_type": "auto"
+   },
+   "layers": {
+    "_type": "array"
+   },
+   "Time": {
+    "_type": "object",
+    "_children": {
+     "getServerTime": {
+      "_type": "auto"
+     }
+    }
+   },
+   "LOAD": {
+    "_type": "auto"
+   },
+   "part": {
+    "_type": "auto"
+   },
+   "share_get": {
+    "_type": "array"
+   },
+   "cur_state": {
+    "_type": "number"
+   }
+  },
+  "usesReq": false
+ },
+ "partycake_load_mate": {
+  "tree": {
+   "pre_sugar": {
+    "_type": "auto"
+   },
+   "pre_cream": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "partycake_load_qa": {
+  "tree": {
+   "answer": {
+    "_type": "array"
+   },
+   "wrong": {
+    "_type": "auto"
+   },
+   "guest": {
+    "_type": "auto"
+   },
+   "reward": {
+    "_type": "array"
+   }
+  },
+  "usesReq": false
+ },
+ "partycake_load_task": {
+  "tree": {
+   "task": {
+    "_type": "auto",
+    "_children": {
+     "id": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "pray_load_grays": {
+  "tree": {
+   "wishs": {
+    "_type": "array"
+   },
+   "stamp_new": {
+    "_type": "auto"
+   },
+   "boxes": {
+    "_type": "array"
+   },
+   "stamps": {
+    "_type": "array"
+   },
+   "wish_new": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "rank_get_intro": {
+  "tree": {
+   "Log": {
+    "_type": "object",
+    "_children": {
+     "warning": {
+      "_type": "auto"
+     }
+    }
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "updatePlayerOtherInfo": {
+    "_type": "auto"
+   },
+   "intro": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": true
+ },
+ "rank_load": {
+  "tree": {
+   "me": {
+    "_type": "number"
+   },
+   "info": {
+    "_type": "array",
+    "_children": {
+     "length": {
+      "_type": "auto"
+     }
+    }
+   },
+   "Event": {
+    "_type": "number"
+   },
+   "Log": {
+    "_type": "object",
+    "_children": {
+     "warning": {
+      "_type": "auto"
+     }
+    }
+   },
+   "updateFirstIntro": {
+    "_type": "number"
+   },
+   "first_intro": {
+    "_type": "number",
+    "_children": {
+     "uid": {
+      "_type": "object",
+      "_children": {
+       "toString": {
+        "_type": "auto"
+       }
+      }
+     }
+    }
+   },
+   "updateRankList": {
+    "_type": "number"
+   }
+  },
+  "usesReq": true
+ },
+ "recharge_load": {
+  "tree": {
+   "coll": {
+    "_type": "auto"
+   },
+   "cfg": {
+    "_type": "auto"
+   },
+   "can_reward": {
+    "_type": "auto"
+   },
+   "page": {
+    "_type": "auto"
+   },
+   "source": {
+    "_type": "auto"
+   },
+   "phase": {
+    "_type": "auto"
+   },
+   "text": {
+    "_type": "auto"
+   },
+   "texture": {
+    "_type": "auto"
+   },
+   "times": {
+    "_type": "auto"
+   },
+   "cur_touch": {
+    "_type": "auto"
+   },
+   "buy_num": {
+    "_type": "number"
+   },
+   "actionType": {
+    "_type": "auto"
+   },
+   "img": {
+    "_type": "auto"
+   },
+   "picList": {
+    "_type": "auto"
+   },
+   "modelValue": {
+    "_type": "auto"
+   },
+   "reward": {
+    "_type": "auto"
+   },
+   "answer": {
+    "_type": "auto"
+   },
+   "total": {
+    "_type": "auto"
+   },
+   "lockList": {
+    "_type": "auto"
+   },
+   "_mtime": {
+    "_type": "auto"
+   },
+   "layers": {
+    "_type": "auto"
+   },
+   "task_num": {
+    "_type": "number"
+   },
+   "patch_num": {
+    "_type": "number"
+   },
+   "UPDATE": {
+    "_type": "auto"
+   },
+   "itemsGetter": {
+    "_type": "auto"
+   },
+   "page_num": {
+    "_type": "number"
+   },
+   "unlock_list": {
+    "_type": "auto"
+   },
+   "has_map": {
+    "_type": "boolean"
+   },
+   "gift_time": {
+    "_type": "number"
+   },
+   "onTap": {
+    "_type": "auto"
+   },
+   "right_flag": {
+    "_type": "number"
+   },
+   "isUsing": {
+    "_type": "auto"
+   },
+   "collections": {
+    "_type": "auto"
+   },
+   "rewardArr": {
+    "_type": "auto"
+   },
+   "share_get": {
+    "_type": "auto"
+   },
+   "unlock": {
+    "_type": "auto"
+   },
+   "museum_list": {
+    "_type": "auto"
+   },
+   "length": {
+    "_type": "auto"
+   },
+   "onSelected": {
+    "_type": "auto"
+   },
+   "show_desc": {
+    "_type": "auto"
+   },
+   "cmd": {
+    "_type": "auto"
+   },
+   "month": {
+    "_type": "auto"
+   },
+   "position": {
+    "_type": "auto"
+   },
+   "stock_num": {
+    "_type": "number"
+   },
+   "closeCallback": {
+    "_type": "auto"
+   },
+   "isLock": {
+    "_type": "auto"
+   },
+   "descList": {
+    "_type": "auto"
+   },
+   "tols": {
+    "_type": "auto"
+   },
+   "replacing": {
+    "_type": "auto"
+   },
+   "replaceKey": {
+    "_type": "auto"
+   },
+   "algin": {
+    "_type": "auto"
+   },
+   "coin": {
+    "_type": "auto"
+   },
+   "desc": {
+    "_type": "auto"
+   },
+   "hours_type": {
+    "_type": "number"
+   },
+   "next": {
+    "_type": "auto"
+   },
+   "bottom": {
+    "_type": "auto"
+   },
+   "water": {
+    "_type": "auto"
+   },
+   "new_flag": {
+    "_type": "number"
+   },
+   "selectedIndex": {
+    "_type": "auto"
+   },
+   "type": {
+    "_type": "auto"
+   },
+   "day_left": {
+    "_type": "auto"
+   },
+   "isSend": {
+    "_type": "auto"
+   },
+   "icon": {
+    "_type": "auto"
+   },
+   "canShare": {
+    "_type": "auto"
+   },
+   "task_list": {
+    "_type": "auto"
+   },
+   "share_code": {
+    "_type": "number"
+   },
+   "compass": {
+    "_type": "auto"
+   },
+   "task_harvest": {
+    "_type": "auto"
+   },
+   "info": {
+    "_type": "auto"
+   },
+   "pro": {
+    "_type": "auto"
+   },
+   "limit": {
+    "_type": "auto"
+   },
+   "pic_list": {
+    "_type": "auto"
+   },
+   "grow": {
+    "_type": "auto"
+   },
+   "reward_list": {
+    "_type": "auto"
+   },
+   "pages": {
+    "_type": "auto"
+   },
+   "get_list": {
+    "_type": "auto"
+   },
+   "season": {
+    "_type": "auto"
+   },
+   "key": {
+    "_type": "auto"
+   },
+   "isBuy": {
+    "_type": "auto"
+   },
+   "clover": {
+    "_type": "auto"
+   },
+   "_uuid": {
+    "_type": "auto"
+   },
+   "disableAlbum": {
+    "_type": "auto"
+   },
+   "paper": {
+    "_type": "auto"
+   },
+   "guest": {
+    "_type": "auto"
+   },
+   "replaceSelection": {
+    "_type": "auto"
+   },
+   "goods": {
+    "_type": "auto"
+   },
+   "onShare": {
+    "_type": "auto"
+   },
+   "image": {
+    "_type": "auto"
+   },
+   "count": {
+    "_type": "auto"
+   },
+   "callback": {
+    "_type": "auto"
+   },
+   "price": {
+    "_type": "auto"
+   },
+   "gift_get": {
+    "_type": "auto"
+   },
+   "egg_list": {
+    "_type": "auto"
+   },
+   "onSelect": {
+    "_type": "auto"
+   },
+   "render": {
+    "_type": "auto"
+   },
+   "onGet": {
+    "_type": "auto"
+   },
+   "data": {
+    "_type": "auto"
+   },
+   "rewardMode": {
+    "_type": "auto"
+   },
+   "select_list": {
+    "_type": "auto"
+   },
+   "value": {
+    "_type": "auto"
+   },
+   "pos": {
+    "_type": "auto"
+   },
+   "is_done": {
+    "_type": "boolean"
+   },
+   "num": {
+    "_type": "auto"
+   },
+   "pic": {
+    "_type": "auto"
+   },
+   "colls": {
+    "_type": "auto"
+   },
+   "can_buy_num": {
+    "_type": "number"
+   },
+   "area": {
+    "_type": "auto"
+   },
+   "item_list": {
+    "_type": "auto"
+   },
+   "enabled": {
+    "_type": "auto"
+   },
+   "pre_cream": {
+    "_type": "auto"
+   },
+   "otherUsing": {
+    "_type": "auto"
+   },
+   "can_pop": {
+    "_type": "auto"
+   },
+   "pictures": {
+    "_type": "auto"
+   },
+   "items": {
+    "_type": "auto"
+   },
+   "part": {
+    "_type": "auto"
+   },
+   "review": {
+    "_type": "auto"
+   },
+   "making_index": {
+    "_type": "number"
+   },
+   "shareCallback": {
+    "_type": "auto"
+   },
+   "item_num": {
+    "_type": "number"
+   },
+   "desc_id": {
+    "_type": "number"
+   },
+   "open_url": {
+    "_type": "auto"
+   },
+   "concat": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "id": {
+    "_type": "auto"
+   },
+   "popIndex": {
+    "_type": "auto"
+   },
+   "itemID": {
+    "_type": "auto"
+   },
+   "show_sub": {
+    "_type": "auto"
+   },
+   "onReward": {
+    "_type": "auto"
+   },
+   "share_num": {
+    "_type": "number"
+   },
+   "enable": {
+    "_type": "auto"
+   },
+   "path": {
+    "_type": "auto"
+   },
+   "state": {
+    "_type": "auto"
+   },
+   "shop_id": {
+    "_type": "number"
+   },
+   "gift_can_get": {
+    "_type": "auto"
+   },
+   "list": {
+    "_type": "auto"
+   },
+   "tips": {
+    "_type": "auto"
+   },
+   "onRefresh": {
+    "_type": "auto"
+   },
+   "body": {
+    "_type": "auto"
+   },
+   "cur": {
+    "_type": "auto"
+   },
+   "touch_list": {
+    "_type": "auto"
+   },
+   "lucky_days": {
+    "_type": "auto"
+   },
+   "pic_img": {
+    "_type": "auto"
+   },
+   "onOut": {
+    "_type": "auto"
+   },
+   "onClose": {
+    "_type": "auto"
+   },
+   "inspire_time": {
+    "_type": "number"
+   },
+   "note_list": {
+    "_type": "auto"
+   },
+   "box_id": {
+    "_type": "number"
+   },
+   "theme": {
+    "_type": "auto"
+   },
+   "item_id": {
+    "_type": "number"
+   },
+   "pic_id": {
+    "_type": "number"
+   },
+   "title": {
+    "_type": "auto"
+   },
+   "onDelete": {
+    "_type": "auto"
+   },
+   "new_index": {
+    "_type": "number"
+   },
+   "card_info": {
+    "_type": "auto"
+   },
+   "folded": {
+    "_type": "auto"
+   },
+   "extra_item": {
+    "_type": "auto"
+   },
+   "sack": {
+    "_type": "array"
+   },
+   "using": {
+    "_type": "auto"
+   },
+   "task_share": {
+    "_type": "auto"
+   },
+   "end_time": {
+    "_type": "number"
+   },
+   "canTap": {
+    "_type": "auto"
+   },
+   "bag": {
+    "_type": "auto"
+   },
+   "scale": {
+    "_type": "auto"
+   },
+   "cream": {
+    "_type": "auto"
+   },
+   "selectIndex": {
+    "_type": "auto"
+   },
+   "task_login": {
+    "_type": "auto"
+   },
+   "st_days": {
+    "_type": "auto"
+   },
+   "modelType": {
+    "_type": "auto"
+   },
+   "onShow": {
+    "_type": "auto"
+   },
+   "pre_sugar": {
+    "_type": "auto"
+   },
+   "inspire_num": {
+    "_type": "number"
+   },
+   "ticket": {
+    "_type": "auto"
+   },
+   "friendId": {
+    "_type": "auto"
+   },
+   "selected": {
+    "_type": "auto"
+   },
+   "can_banner": {
+    "_type": "auto"
+   },
+   "task_item": {
+    "_type": "auto"
+   },
+   "is_selected": {
+    "_type": "boolean"
+   },
+   "time": {
+    "_type": "auto"
+   },
+   "unlock_desc": {
+    "_type": "auto"
+   },
+   "send_list": {
+    "_type": "auto"
+   },
+   "onPut": {
+    "_type": "auto"
+   },
+   "cur_state": {
+    "_type": "auto"
+   },
+   "weather": {
+    "_type": "auto"
+   },
+   "onConfirm": {
+    "_type": "auto"
+   },
+   "replaceMode": {
+    "_type": "auto"
+   },
+   "is_share": {
+    "_type": "boolean"
+   },
+   "sugar": {
+    "_type": "auto"
+   },
+   "change": {
+    "_type": "auto"
+   },
+   "pre_coin": {
+    "_type": "number"
+   },
+   "name": {
+    "_type": "auto"
+   },
+   "field": {
+    "_type": "array"
+   },
+   "wrong": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "recharge_load_gift": {
+  "tree": {
+   "UPDATE": {
+    "_type": "auto"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "gift": {
+    "_type": "array"
+   }
+  },
+  "usesReq": false
+ },
+ "recharge_update_num": {
+  "tree": {
+   "Event": {
+    "_type": "auto"
+   },
+   "change": {
+    "_type": "auto"
+   },
+   "UPDATE": {
+    "_type": "auto"
+   },
+   "water": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "share_load": {
+  "tree": {
+   "pic_list": {
+    "_type": "array"
+   }
+  },
+  "usesReq": false
+ },
+ "springcard_load": {
+  "tree": {
+   "box_id": {
+    "_type": "number"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "can_buy_num": {
+    "_type": "number"
+   },
+   "task_item": {
+    "_type": "array"
+   },
+   "end_time": {
+    "_type": "number"
+   },
+   "LOAD": {
+    "_type": "auto"
+   },
+   "reward_list": {
+    "_type": "array"
+   },
+   "Time": {
+    "_type": "object",
+    "_children": {
+     "getServerTime": {
+      "_type": "auto"
+     }
+    }
+   },
+   "card_info": {
+    "_type": "auto"
+   },
+   "items": {
+    "_type": "array"
+   },
+   "share_get": {
+    "_type": "auto"
+   },
+   "share_code": {
+    "_type": "number"
+   },
+   "share_num": {
+    "_type": "number"
+   },
+   "CARD_CHANGE": {
+    "_type": "auto"
+   },
+   "task_harvest": {
+    "_type": "auto"
+   },
+   "buy_num": {
+    "_type": "number"
+   }
+  },
+  "usesReq": false
+ },
+ "story_load": {
+  "tree": {
+   "new_story_id": {
+    "_type": "number"
+   },
+   "stories": {
+    "_type": "array"
+   }
+  },
+  "usesReq": false
+ },
+ "task_load": {
+  "tree": {
+   "tasks": {
+    "_type": "array"
+   },
+   "list": {
+    "_type": "array"
+   },
+   "Event": {
+    "_type": "auto"
+   },
+   "UPDATE": {
+    "_type": "auto"
+   }
+  },
+  "usesReq": false
+ },
+ "task_load_list": {
+  "tree": {
+   "reward": {
+    "_type": "array"
+   }
+  },
+  "usesReq": false
+ },
+ "travel_load_gift": {
+  "tree": {
+   "pictures": {
+    "_type": "array"
+   },
+   "specialtys": {
+    "_type": "array"
+   },
+   "updateGiftBox": {
+    "_type": "number"
+   },
+   "Event": {
+    "_type": "number"
+   }
+  },
+  "usesReq": false
+ },
+ "travel_load_note": {
+  "tree": {
+   "note_list": {
+    "_type": "array",
+    "_children": {
+     "length": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ },
+ "visit_load": {
+  "tree": {
+   "Event": {
+    "_type": "number"
+   },
+   "visitor": {
+    "_type": "number"
+   },
+   "acquire": {
+    "_type": "array"
+   },
+   "MathExtend": {
+    "_type": "object",
+    "_children": {
+     "Range": {
+      "_type": "auto"
+     }
+    }
+   },
+   "SocketManage": {
+    "_type": "object",
+    "_children": {
+     "getInstance": {
+      "_type": "auto"
+     }
+    }
+   },
+   "updateAcquireList": {
+    "_type": "number"
+   },
+   "updateVisitor": {
+    "_type": "number"
+   }
+  },
+  "usesReq": false
+ },
+ "wishingpool_load": {
+  "tree": {
+   "PageManage": {
+    "_type": "object",
+    "_children": {
+     "getInstance": {
+      "_type": "auto"
+     }
+    }
+   },
+   "ViewLayerType": {
+    "_type": "object",
+    "_children": {
+     "SceneLayer": {
+      "_type": "auto"
+     }
+    }
+   }
+  },
+  "usesReq": false
+ }
+}
